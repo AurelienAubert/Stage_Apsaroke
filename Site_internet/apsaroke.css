@@ -57,4 +57,15 @@ body {
     margin-left: 0px;
     border-radius: 10px;
 }
+.entetePortail {
+     background-color:#fff;
+    border: 1px solid black;
+    height:250px;
+    padding-top:20px;  
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
 
