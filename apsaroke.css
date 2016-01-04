@@ -1,0 +1,93 @@
+html{
+    background-image: url("images/fond.jpg");
+    background-size: 100%;
+    width: auto;
+    height: 100%;
+}
+body
+{
+    width: 80%;/* Pour fixer la largeur de la page */
+    height: 100%;
+    margin: auto; /* Pour centrer la page */
+    background-color: #E6E6FA;
+}
+.header_page
+{
+    margin-top: 100px;
+    width: 50px;
+    height: 100px;
+    background-color: #FFFFFF;
+    color: white;
+}
+.img_head
+{
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    padding: inherit;
+
+}
+
+.blocDroit /* menu */ 
+{ 
+    margin-top: 10px;
+    margin-left: 5px;
+    float: right;
+    width: 225px;
+    height: 792px;
+    background-color: #FFFFFF;
+    border-radius: 5px; 
+    color: black; /* couleur noire*/ 
+    padding-right: 10px;
+    padding: 10px;
+}
+.blocDroit.nav 
+{
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+    width: 100%;
+    background-color: white; /* Fond blanc */
+    border-radius: 5px; 
+    color: black; /* couleur noire*/ 
+    padding-right: 10px;
+ 
+}
+section
+{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    overflow: auto;
+    height: 100%;
+    width: auto;
+    background-color: #E6E6FA;
+
+}
+article /* bloc : présentation du lycée */
+{
+    margin-left: 10px;
+    height: 50%;
+    width: 98,5%; /* largeur du bloc */
+    color: black;
+    text-align: justify; /* texte justifié (aligné à droite et à gauche) */
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 30px;
+;
+}
+.nav1
+{
+    margin-left: 10px;
+    border-bottom: #ECECEC solid 0.5px;
+    padding: inherit;
+}
+ul {
+    list-style-type: none;
+    
+}
+li
+{
+    list-style-type: none;
+    
+}
