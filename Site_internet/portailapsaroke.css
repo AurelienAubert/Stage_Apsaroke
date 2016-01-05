@@ -1,5 +1,17 @@
+html {
+/*    <!-- Attention une barre blanche non prévue persiste dans le fond, elle n'est pas liée au fond -->*/
+    position: relative;
+    background-image: url("image/fond.jpg");
+    background-size: 100%;
+    width: auto;
+    height: 100%;
+}
+
 body {
-    padding-top: 50px;
+    position: absolute;
+    padding-top: 0px;
+    top: 25px;
+    left: 50px;
 }
 
 .footer {
@@ -13,10 +25,13 @@ body {
 }
 
 .img1 {
-    background-color:#fff;
+    position: absolute;
+    top: 250px;
+    left: 30px;
     border: 1px solid black;
-    height:200px;
-    padding-top:40px;  
+    height: 175px;
+    text-align: center;
+    padding-top: 35;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 15px;
@@ -25,43 +40,13 @@ body {
 }
 
 .img2 {
-    background-color:#fff;
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    background-color: #fff;
     border: 1px solid black;
-    height:200px;
-    padding-top:40px;  
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 15px;
-    margin-left: 0px;
-    border-radius: 10px;
-}
-.img3 {
-    background-color:#fff;
-    border: 1px solid black;
-    height:200px;
-    padding-top:40px;  
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 15px;
-    margin-left: 0px;
-    border-radius: 10px;
-}
-.img4 {
-    background-color:#fff;
-    border: 1px solid black;
-    height:200px;
-    padding-top:40px;  
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 15px;
-    margin-left: 0px;
-    border-radius: 10px;
-}
-.entetePortail {
-     background-color:#fff;
-    border: 1px solid black;
-    height:250px;
-    padding-top:20px;  
+    height: 175px;
+    padding-top: 35px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 15px;
@@ -69,3 +54,46 @@ body {
     border-radius: 10px;
 }
 
+.img3 {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    background-color: #fff;
+    border: 1px solid black;
+    height: 175px;
+    padding-top: 35px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+.img4 {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    background-color: #fff;
+    border: 1px solid black;
+    height: 175px;
+    padding-top: 35px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
+
+.entetePortail {
+    position: absolute;
+    left: 115px;
+    background-color: #fff;
+    border: 1px solid black;
+    height: 220px;
+    padding-top: 20px;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    border-radius: 10px;
+}
