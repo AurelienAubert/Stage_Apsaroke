@@ -21,8 +21,8 @@ body
 }
 .img_head
 {
-    width: auto;
-    height: auto;
+    width: 250px;
+    height: 190px;
     margin-top: 50px;
     padding: inherit;
 
@@ -125,5 +125,10 @@ li
     
 }
 #navbar {
-    background-color: black;
+    background-color: #a7bdff;
+    text-color: black;
+
+}
+.gras {
+    color: black;
 }
