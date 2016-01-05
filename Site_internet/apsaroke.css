@@ -6,10 +6,11 @@ html{
 }
 body
 {
+    font-family: lato;
     width: 70%;/* Pour fixer la largeur de la page */
     height: auto;
     margin: auto; /* Pour centrer la page */
-    background-color: #E6E6FA;
+    background-color: #EBEBEB;
 }
 .header_page
 {
@@ -30,16 +31,17 @@ body
 
 .blocDroit /* menu */ 
 { 
-    margin-top: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
     margin-left: 5px;
     float: right;
     width: 250px;
-    height: auto;
+    height: 100%;
     background-color: #FFFFFF;
-    border-radius: 5px; 
     color: black; /* couleur noire*/ 
     padding-right: 10px;
     padding: 10px;
+
 }
 .blocDroit.nav 
 {
@@ -47,51 +49,52 @@ body
     margin-left: 5px;
     float: left;
     width: 100%;
+     height: 100%;
     background-color: white; /* Fond blanc */
-    border-radius: 5px; 
     color: black; /* couleur noire*/ 
     padding-right: 10px;
+    
  
 }
 section
 {
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: auto;
-    margin-bottom: 10px;
     overflow: auto;
     height: 100%;
     width: auto;
-    background-color: #E6E6FA;
+    background-color: #FFFFFF;
 
 }
 article /* bloc : présentation du lycée */
 {
-    margin-left: 10px;
-    height: auto;
-    width: 98,5%; /* largeur du bloc */
+
+    height: 100%;
+    width: auto; /* largeur du bloc */
     color: black;
     text-align: justify; /* texte justifié (aligné à droite et à gauche) */
-    border-radius: 10px;
     background-color: #FFFFFF;
     padding: 30px;
+
+
 ;
 }
 
 #global 
 {
-width:730px;
-    margin: 5px;
+width:100%;
 }
 #global div
 {
 float:left;
 height:400px;
-    width: 32.5%;
-    padding: 5px;
+    width: 24.1%;
+    padding: 10px;
     margin-left: 5px;
-    background-color: #FFC000;
+    background-color: #FFFFFF;
     text-align: justify;
-        overflow: hidden;
+    background-image:linear-gradient(60deg, white,  	#FFB700);
 
 }
 #text
@@ -118,7 +121,7 @@ ul {
 li
 {
     list-style-type: none;
-    color: #4682B4;
+    color: #1C73D3;
      font-weight: 600;
     
 }
@@ -127,13 +130,15 @@ h1
         font-size: 25px;
       text-decoration: underline;
     text-decoration-color: white;
-    color: #4682B4;
+    color: #1C73D3;
      font-weight: 600;
+    height: 65px;
 }
 p
 {
     font-weight: 600;
-    color: #4682B4;
+    color: #1C73D3;
+
 }
 #blocContact
 {
@@ -147,17 +152,57 @@ p
 }
 h2
 {
-    color: #FFC000;
+    color: #FF9900;
+    text-decoration: underline;
 }
 footer
 {
-    background-color: #696969; 
+    background-color:  	#202020 ; 
+    height: 50px;
 }
 #piedPage
 {
-    height: 75px;
-    background-color: #696969;
+    margin-top: 2px;
+    height: 200px;
+    background-color:  	#383838 ;
 }
-#navbar {
-    background-color: white;
+#navbar{
+    background-color: #FFFFFF;
+}
+#bar
+{
+    background-color: #EBEBEB;
+    width: 5px;
+    height: 100%;
+}
+#description
+{
+    padding: 10px;
+    border-bottom:  #ECECEC solid 0.5px;
+    border-top:  #ECECEC solid 0.5px;
+    font-size: 15px;
+
+}
+.imgFoot
+{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.apsaroke
+{
+    font: bold 15px Mistral, Arial, Helvetica, sans-serif;
+    color: #1C73D3;
+}
+.apsarokeG
+{
+    font: bold 25px Mistral, Arial, Helvetica, sans-serif;
+    color: #1C73D3;
+}
+.centrer
+{
+    text-align: center;
+    color: #1C73D3;
 }
