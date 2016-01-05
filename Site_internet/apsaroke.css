@@ -1,13 +1,13 @@
 html{
-    background-image: url("images/fond.jpg");
+    background-image: url("image/fond.jpg");
     background-size: 100%;
     width: auto;
-    height: 100%;
+    height: auto;
 }
 body
 {
     width: 80%;/* Pour fixer la largeur de la page */
-    height: 100%;
+    height: auto;
     margin: auto; /* Pour centrer la page */
     background-color: #E6E6FA;
 }
@@ -33,8 +33,8 @@ body
     margin-top: 10px;
     margin-left: 5px;
     float: right;
-    width: 225px;
-    height: 792px;
+    width: 250px;
+    height: auto;
     background-color: #FFFFFF;
     border-radius: 5px; 
     color: black; /* couleur noire*/ 
@@ -67,7 +67,7 @@ section
 article /* bloc : présentation du lycée */
 {
     margin-left: 10px;
-    height: 50%;
+    height: auto;
     width: 98,5%; /* largeur du bloc */
     color: black;
     text-align: justify; /* texte justifié (aligné à droite et à gauche) */
@@ -76,38 +76,35 @@ article /* bloc : présentation du lycée */
     padding: 30px;
 ;
 }
-    #block
-    {
-            width: 95%;
-            height: 109px;
-            margin: auto;
-            margin-top: 25px;
-            background-image: url("../images/structure/header_middle.png");
-            background-repeat: repeat-x;
-    }
-    #block div
-    {
-            height: 100%;
-    }
-    #block_left
-    {
-            width: 10px;
-            float: left;
-            background-image: url("../images/structure/header_left.png");
-            background-repeat: no-repeat;
-    }
-    #block_middle
-    {
-            float: right;
-            text-align: center;
-    }
-    #block_right
-    {
-            width: 10px;
-            float: right;
-            background-image: url("../images/structure/header_right.png");
-            background-repeat: no-repeat;
-    }
+
+#global 
+{
+width:875px;
+    margin: 5px;
+}
+#global div
+{
+float:left;
+height:400px;
+    width: 32.6%;
+    padding: 5px;
+    padding-left: 5px;
+    margin: 3px;
+    background-color: orange;
+    text-align: justify;
+        overflow: hidden;
+
+}
+#text
+{
+    text-align: justify;
+    width: 120px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+  
+
+}
 
 .nav1
 {
@@ -122,5 +119,43 @@ ul {
 li
 {
     list-style-type: none;
+    color: #4682B4;
+     font-weight: 600;
     
+}
+h1
+{
+        font-size: 25px;
+      text-decoration: underline;
+    text-decoration-color: white;
+    color: #4682B4;
+     font-weight: 600;
+}
+p
+{
+    font-weight: 600;
+    color: #4682B4;
+}
+#blocContact
+{
+    width: 210px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 10px; /* marge ext. gauche pour ne pas coller à l'article */
+    padding: 20px; /* marge intérieure pour le texte */
+    font-size: 0.9em;
+    border-top: darkgrey 0.5px;
+}
+h2
+{
+    color: orange;
+}
+footer
+{
+    background-color: #696969; 
+}
+#piedPage
+{
+    height: 75px;
+    background-color: #696969;
 }
