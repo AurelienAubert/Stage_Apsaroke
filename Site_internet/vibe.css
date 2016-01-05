@@ -16,15 +16,17 @@ body
     margin-top: 100px;
     width: 50px;
     height: 100px;
-    background-color: #FFFFFF;
-    color: white;
+    background-color:grey;
+    color: grey;
 }
 .img_head
 {
-    width: 250px;
-    height: 190px;
+    width: 400px;
+    height: 100px;
     margin-top: 50px;
     padding: inherit;
+    text-align: center;
+    margin-left: 300px;
 
 }
 
@@ -131,4 +133,8 @@ li
 }
 .gras {
     color: black;
+}
+.Apsaroke {
+    font:bold 17px Mistral,Arial, Helvetica, sans-serif;
+	color:#1c73d3;
 }
