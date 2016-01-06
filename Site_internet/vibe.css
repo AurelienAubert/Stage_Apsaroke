@@ -91,6 +91,7 @@ section {
     background-color: #FFFFFF;
     padding: 30px;
     border: 1px solid black;
+    font-size: 20px;
     ;
 }
 
@@ -116,7 +117,7 @@ li {
     background-image: linear-gradient(to bottom, grey, white);
 }
 
->>>>>>> Avant manger
+
 .gras {
     color: black;
 }
@@ -139,7 +140,7 @@ li {
 }
 
 h3 {
-    color: rebeccapurple;
+    color: deeppink ;
     text-decoration: underline;
 }
 
@@ -163,12 +164,32 @@ footer
     margin-bottom: 10px;
 }
 .mentions{
-    width: 400px;
+    width: 500px;
     height:100px;
     float: right; 
     color: #808080; 
     padding-right: 15px; 
-    padding-top: 0px; 
+    padding-top: 5px; 
     text-align: right;
-    font 10px;
+    font-size:10px;
+}
+.societe {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    height: 500px;
+    width: 760px;
+    /* largeur du bloc */
+    color: black;
+    text-align: justify;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border: 1px solid black;
+    font-size:20px;
+    ;
+}
+.vibe
+{
+    color : deeppink;
+    font-weight: bold;
 }
