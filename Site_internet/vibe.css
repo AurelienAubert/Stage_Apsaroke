@@ -98,6 +98,7 @@ section {
 .nav1 {
     margin-left: 10px;
     padding: inherit;
+    
 }
 
 ul {
@@ -121,6 +122,7 @@ li {
 .gras {
     color: black;
 }
+
 
 .Apsaroke {
     font: bold 17px Mistral, Arial, Helvetica, sans-serif;
@@ -192,4 +194,27 @@ footer
 {
     color : deeppink;
     font-weight: bold;
+}
+.rejoindre
+{
+    color:black;
+    margin-top: 10px;
+    margin-left: 12.5px;
+    height: 500px;
+    width: 760px;
+    /* largeur du bloc */
+    text-align: justify;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border: 1px solid black;
+    font-size:18px;
+}
+.cv {
+    color : deeppink;
+    font-size: 15px;
+}
+.nousrejoindre 
+{
+    color:deeppink;
 }
