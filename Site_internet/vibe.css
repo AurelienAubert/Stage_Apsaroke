@@ -96,7 +96,6 @@ section {
 
 .nav1 {
     margin-left: 10px;
-    border-bottom: #ECECEC solid 0.5px;
     padding: inherit;
 }
 
@@ -110,12 +109,14 @@ li {
     font-weight: 600;
 }
 
+
 #navbar {
     background-color: #a7bdff;
     text-color: black;
     background-image: linear-gradient(to bottom, grey, white);
 }
 
+>>>>>>> Avant manger
 .gras {
     color: black;
 }
