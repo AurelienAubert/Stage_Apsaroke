@@ -1,62 +1,75 @@
-html{
+html {
+    position: relative;
     background-image: url("image/fond.jpg");
     background-size: 100%;
     width: auto;
     height: 100%;
 }
-body
-{
-    width: 80%;/* Pour fixer la largeur de la page */
+
+body {
+    width: 80%;
+    /* Pour fixer la largeur de la page */
     height: 100%;
-    margin: auto; /* Pour centrer la page */
+    margin: auto;
+    /* Pour centrer la page */
     background-color: #E6E6FA;
 }
-.header_page
-{
-    margin-top: 100px;
-    width: 50px;
+
+.header_page {
+    margin-left: 12.5px;
+    margin-top: 55px;
+    width: 1000px;
     height: 100px;
-    background-color:grey;
+    background-color: grey;
     color: grey;
+    border-radius: 10px;
+    background-image: linear-gradient(white, grey);
+    border: 1px solid black;
 }
-.img_head
-{
+
+.img_head {
     width: 400px;
     height: 100px;
-    margin-top: 50px;
+    margin-top: 0px;
     padding: inherit;
     text-align: center;
     margin-left: 300px;
-
 }
 
-.blocDroit /* menu */ 
-{ 
+.blocDroit
+/* menu */
+
+{
     margin-top: 10px;
     margin-left: 5px;
     float: right;
     width: 225px;
-    height: 792px;
+    height: 500px;
     background-color: #FFFFFF;
-    border-radius: 5px; 
-    color: black; /* couleur noire*/ 
+    border-radius: 5px;
+    color: black;
+    /* couleur noire*/
     padding-right: 10px;
     padding: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
 }
-.blocDroit.nav 
-{
+
+.blocDroit.nav {
+    margin-right: 5px;
     margin-top: 10px;
     margin-left: 5px;
     float: left;
     width: 100%;
-    background-color: white; /* Fond blanc */
-    border-radius: 5px; 
-    color: black; /* couleur noire*/ 
+    background-color: white;
+    /* Fond blanc */
+    border-radius: 5px;
+    color: black;
+    /* couleur noire*/
     padding-right: 10px;
- 
 }
-section
-{
+
+section {
     margin-top: 10px;
     margin-left: auto;
     margin-bottom: 10px;
@@ -64,77 +77,97 @@ section
     height: 100%;
     width: auto;
     background-color: #E6E6FA;
-
 }
-article /* bloc : présentation du lycée */
-{
-    margin-left: 10px;
-    height: 50%;
-    width: 98,5%; /* largeur du bloc */
+
+.article {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    height: 500px;
+    width: 760px;
+    /* largeur du bloc */
     color: black;
-    text-align: justify; /* texte justifié (aligné à droite et à gauche) */
+    text-align: center;
     border-radius: 10px;
     background-color: #FFFFFF;
     padding: 30px;
-;
+    border: 1px solid black;
+    ;
 }
-    #block
-    {
-            width: 95%;
-            height: 109px;
-            margin: auto;
-            margin-top: 25px;
-            background-image: url("../images/structure/header_middle.png");
-            background-repeat: repeat-x;
-    }
-    #block div
-    {
-            height: 100%;
-    }
-    #block_left
-    {
-            width: 10px;
-            float: left;
-            background-image: url("../images/structure/header_left.png");
-            background-repeat: no-repeat;
-    }
-    #block_middle
-    {
-            float: right;
-            text-align: center;
-    }
-    #block_right
-    {
-            width: 10px;
-            float: right;
-            background-image: url("../images/structure/header_right.png");
-            background-repeat: no-repeat;
-    }
 
-.nav1
-{
+.nav1 {
     margin-left: 10px;
     border-bottom: #ECECEC solid 0.5px;
     padding: inherit;
 }
+
 ul {
     list-style-type: none;
-    
 }
-li
-{
+
+li {
     list-style-type: none;
-    
+    color: #1C73D3;
+    font-weight: 600;
 }
+
 #navbar {
     background-color: #a7bdff;
     text-color: black;
-
+    background-image: linear-gradient(to bottom, grey, white);
 }
+
 .gras {
     color: black;
 }
+
 .Apsaroke {
-    font:bold 17px Mistral,Arial, Helvetica, sans-serif;
-	color:#1c73d3;
+    font: bold 17px Mistral, Arial, Helvetica, sans-serif;
+    color: #1c73d3;
+}
+
+#blocContact {
+    width: 210px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    /* marge ext. gauche pour ne pas coller à l'article */
+    padding: 20px;
+    /* marge intérieure pour le texte */
+    font-size: 0.9em;
+    border-top: darkgrey 0.5px;
+}
+
+h3 {
+    color: rebeccapurple;
+    text-decoration: underline;
+}
+
+.liste {
+    text-align: justify;
+    margin-left:75px;
+}
+.imgFoot
+{
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-top: 125px;
+    margin-left: 30px;
+    
+}
+footer
+{
+    background-color:  	#202020 ; 
+    height: 100px;
+    margin-bottom: 10px;
+}
+.mentions{
+    width: 400px;
+    height:100px;
+    float: right; 
+    color: #808080; 
+    padding-right: 15px; 
+    padding-top: 0px; 
+    text-align: right;
+    font 10px;
 }
