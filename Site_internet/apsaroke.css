@@ -1,16 +1,31 @@
 html{
     background-image: url("image/fond.jpg");
-    background-size: 100%;
+    background-size: auto;
     width: auto;
     height: auto;
+    background-repeat:no-repeat;
 }
 body
 {
-    font-family: lato;
+   font-family: Lato;
     width: 70%;/* Pour fixer la largeur de la page */
     height: auto;
     margin: auto; /* Pour centrer la page */
     background-color: #EBEBEB;
+    font-family: "HelveticaNeue","Helvetica Neue",Arial,sans-serif;
+}
+nav
+{
+    width: 70%;
+    margin: auto;
+}
+.navbar-inverse .navbar-brand
+{
+    color: #808080;
+}
+.navbar-inverse
+{
+    background-color: #383838;
 }
 .header_page
 {
@@ -31,14 +46,11 @@ body
 
 .blocDroit /* menu */ 
 { 
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
+    margin: 5px 5px 0px;
     float: right;
     width: 250px;
     height: 100%;
     background-color: #FFFFFF;
-    color: black; /* couleur noire*/ 
     padding-right: 10px;
     padding: 10px;
 
@@ -51,7 +63,6 @@ body
     width: 100%;
      height: 100%;
     background-color: white; /* Fond blanc */
-    color: black; /* couleur noire*/ 
     padding-right: 10px;
     
  
@@ -94,7 +105,9 @@ height:400px;
     margin-left: 5px;
     background-color: #FFFFFF;
     text-align: justify;
-    background-image:linear-gradient(60deg, white,  	#FFB700);
+    background-image:linear-gradient(60deg, white,  
+#EAC520);
+     box-shadow: 1px 1px 12px #555;
 
 }
 #text
@@ -112,6 +125,7 @@ height:400px;
 {
     margin-left: 10px;
     border-bottom: #ECECEC solid 0.5px;
+    border-left: #ECECEC solid 0.5px;
     padding: inherit;
 }
 ul {
@@ -122,21 +136,19 @@ li
 {
     list-style-type: none;
     color: #1C73D3;
-     font-weight: 600;
+     font-weight: 500;
     
 }
 h1
 {
         font-size: 25px;
-      text-decoration: underline;
-    text-decoration-color: white;
     color: #1C73D3;
-     font-weight: 600;
+     font-weight: 500;
     height: 65px;
 }
 p
 {
-    font-weight: 600;
+    font-weight: 500;
     color: #1C73D3;
 
 }
@@ -152,13 +164,14 @@ p
 }
 h2
 {
-    color: #FF9900;
+    color: #FFB700;
     text-decoration: underline;
 }
 footer
 {
     background-color:  	#202020 ; 
-    height: 50px;
+    height: 40px;
+    border: #000000 outset 1px;
 }
 #piedPage
 {
@@ -166,12 +179,10 @@ footer
     height: 200px;
     background-color:  	#383838 ;
 }
-#navbar{
-    background-color: #FFFFFF;
-}
+
 #bar
 {
-    background-color: #EBEBEB;
+    background-color: white;
     width: 5px;
     height: 100%;
 }
@@ -181,15 +192,14 @@ footer
     border-bottom:  #ECECEC solid 0.5px;
     border-top:  #ECECEC solid 0.5px;
     font-size: 15px;
+    color: #848484;
 
 }
 .imgFoot
 {
-    width: 150px;
+    width: 125px;
     height: 150px;
     float: left;
-    margin-top: 20px;
-    margin-left: 30px;
 }
 .apsaroke
 {
@@ -201,8 +211,27 @@ footer
     font: bold 25px Mistral, Arial, Helvetica, sans-serif;
     color: #1C73D3;
 }
-.centrer
+
+.textFoot
 {
-    text-align: center;
     color: #1C73D3;
+
+}
+a
+{
+    color: #1C73D3;
+    
+}
+a:hover
+{
+    text-decoration: none;
+}
+#fourColumns
+{
+    width: 20%;
+    float: left;
+    margin: 50px 30px 0px;
+    display: inline;
+    position: relative;
+    margin-top: 30px;
 }

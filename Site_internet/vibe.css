@@ -114,7 +114,6 @@ article /* bloc : présentation du lycée */
 .nav1
 {
     margin-left: 10px;
-    border-bottom: #ECECEC solid 0.5px;
     padding: inherit;
 }
 ul {
@@ -126,11 +125,7 @@ li
     list-style-type: none;
     
 }
-#navbar {
-    background-color: #a7bdff;
-    text-color: black;
 
-}
 .gras {
     color: black;
 }
