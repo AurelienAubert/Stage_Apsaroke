@@ -91,3 +91,9 @@ body {
     margin-left: 0px;
     border-radius: 10px;
 }
+.sponsoring{
+    position: absolute;
+    margin-top: 500;
+    text-align: center;
+    margin-left: 545px;
+}
