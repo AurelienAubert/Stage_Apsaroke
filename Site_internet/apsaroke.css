@@ -1,16 +1,25 @@
-html{
+html,body{
     background-image: url("image/fond.jpg");
     background-size: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
-    min-height: 100%;
-    background-repeat: no-repeat;
+
+
 
 }
-body
+@media all and (min-width: 800px) and (max-width: 1024px) {
+    .layout-main, description, section, article {
+        float: none;
+        width: auto;
+        font-size: 12px;
+    }
+}
+
+
+.layout-main
 {
    font-family: Lato;
-    width: 1024px;/* Pour fixer la largeur de la page */
+    width: 72%;/* Pour fixer la largeur de la page */
     height: 100%;
     min-height: 100%;
     margin: auto; /* Pour centrer la page */
@@ -20,7 +29,7 @@ body
 }
 nav
 {
-    width: 1024px;
+    width: 72%S;
     margin: auto;
      min-height: 100%;
 }
@@ -46,7 +55,7 @@ img  /* empêche les images de prendre trop de place */
 }
 #header_page
 {
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: #FFFFFF;
     color: white;
@@ -64,13 +73,14 @@ img  /* empêche les images de prendre trop de place */
 { 
     margin: 5px 5px 0px;
     float: right;
-    width: 250px;
+    width: 25%;
     height: 100%;
     background-color: #FFFFFF;
     padding-right: 10px;
     padding: 10px;
 
 }
+
 section
 {
     margin-top: 5px;
@@ -80,6 +90,7 @@ section
     width: auto;
     background-color: #FFFFFF;
     overflow: hidden;
+    
 
 }
 article /* bloc : présentation du lycée */
@@ -133,6 +144,7 @@ height:350px;
     border-left: #ECECEC solid 0.5px;
     padding: inherit;
     color: #1C73D3;
+    float: left;
 }
 ul {
     list-style-type: none;
@@ -167,12 +179,14 @@ footer
     background-color:  	#202020 ; 
     height: 40px;
     border: #000000 outset 1px;
+    width: 1024px;
 }
 #piedPage
 {
     margin-top: 2px;
     height: 150px;
     background-color:  	#383838 ;
+    width: 1024px;
 }
 
 #bar
@@ -180,6 +194,7 @@ footer
     background-color: white;
     width: 5px;
     height: 100%;
+    
 }
 .description
 {
