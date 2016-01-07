@@ -25,6 +25,7 @@ body {
     border-radius: 10px;
     background-image: linear-gradient(white, grey);
     border: 1px solid black;
+    margin-right: 12.5px;
 }
 
 .img_head {
@@ -98,7 +99,6 @@ section {
 .nav1 {
     margin-left: 10px;
     padding: inherit;
-    
 }
 
 ul {
@@ -111,18 +111,15 @@ li {
     font-weight: 600;
 }
 
-
 #navbar {
     background-color: #a7bdff;
     text-color: black;
     background-image: linear-gradient(to bottom, grey, white);
 }
 
-
 .gras {
     color: black;
 }
-
 
 .Apsaroke {
     font: bold 17px Mistral, Arial, Helvetica, sans-serif;
@@ -142,39 +139,40 @@ li {
 }
 
 h3 {
-    color: deeppink ;
+    color: deeppink;
     text-decoration: underline;
 }
 
 .liste {
     text-align: justify;
-    margin-left:75px;
+    margin-left: 75px;
 }
-.imgFoot
-{
+
+.imgFoot {
     width: 75px;
     height: 75px;
     float: left;
     margin-top: 125px;
     margin-left: 30px;
-    
 }
-footer
-{
-    background-color:  	#202020 ; 
+
+footer {
+    background-color: #202020;
     height: 100px;
     margin-bottom: 10px;
 }
-.mentions{
+
+.mentions {
     width: 500px;
-    height:100px;
-    float: right; 
-    color: #808080; 
-    padding-right: 15px; 
-    padding-top: 5px; 
+    height: 100px;
+    float: right;
+    color: #808080;
+    padding-right: 15px;
+    padding-top: 5px;
     text-align: right;
-    font-size:10px;
+    font-size: 10px;
 }
+
 .societe {
     margin-top: 10px;
     margin-left: 12.5px;
@@ -187,17 +185,17 @@ footer
     background-color: #FFFFFF;
     padding: 30px;
     border: 1px solid black;
-    font-size:20px;
+    font-size: 20px;
     ;
 }
-.vibe
-{
-    color : deeppink;
+
+.vibe {
+    color: deeppink;
     font-weight: bold;
 }
-.rejoindre
-{
-    color:black;
+
+.rejoindre {
+    color: black;
     margin-top: 10px;
     margin-left: 12.5px;
     height: 500px;
@@ -208,13 +206,74 @@ footer
     background-color: #FFFFFF;
     padding: 30px;
     border: 1px solid black;
-    font-size:18px;
+    font-size: 18px;
 }
+
 .cv {
-    color : deeppink;
+    color: deeppink;
     font-size: 15px;
 }
-.nousrejoindre 
-{
-    color:deeppink;
+
+.nousrejoindre {
+    color: deeppink;
+}
+
+.imgsponso {
+    position: absolute;
+    width: auto;
+    height: 100px;
+    margin-top: 0px;
+    padding: inherit;
+    margin-left: 250px;
+}
+
+.header_sponso {
+    margin-left: 12.5px;
+    margin-top: 55px;
+    width: 990px;
+    height: 100px;
+    background-color: grey;
+    color: grey;
+    border-radius: 10px;
+    background-image: linear-gradient(white, grey);
+    border: 1px solid black;
+    margin-right: 12.5px;
+}
+
+.mentionsSponso {
+    width: 500px;
+    height: 100px;
+    float: right;
+    color: #808080;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 10px;
+}
+
+.piedPageponso {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-left: 30px;
+}
+
+.articlesponso {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    height: 500px;
+    width: 750px;
+    /* largeur du bloc */
+    color: black;
+    text-align: justify;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    font-size: 15px;
+    ;
+}
+
+.sponso1{
+    hight : 100px;
+    width: 200px;
 }
