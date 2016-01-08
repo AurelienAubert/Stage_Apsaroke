@@ -274,6 +274,18 @@ footer {
 }
 
 .sponso1{
-    hight : 100px;
-    width: 200px;
+    margin-top: 10px;
+    height : 200px;
+   
+}
+.sponso2{
+    margin-top: 10px;
+    height : 200px;
+    
+}
+.sponso3 {
+    margin-left: 315px;
+    margin-top: 10px;
+    height : 270px;
+   
 }
