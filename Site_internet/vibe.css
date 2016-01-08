@@ -275,17 +275,22 @@ footer {
 
 .sponso1{
     margin-top: 10px;
-    height : 200px;
-   
+    height : 200px;  
 }
 .sponso2{
     margin-top: 10px;
     height : 200px;
-    
 }
+/* Image de taille plus important que prévue */
 .sponso3 {
     margin-left: 315px;
-    margin-top: 10px;
+    margin-top: -20px;
     height : 270px;
    
+}
+.indien 
+{
+    margin-left: -20px;
+    height: 440px;
+
 }
