@@ -67,7 +67,7 @@ img  /* empêche les images de prendre trop de place */
 { 
     margin: 5px 5px 0px;
     float: right;
-    width: 25%;
+    width: 26%;
     height: 100%;
     background-color: #FFFFFF;
     padding-right: 10px;
@@ -112,7 +112,7 @@ width:100%;
 float:left;
 height:350px;
     overflow: hidden;
-    width: 32.5%;
+    width: 20%;
     padding: 10px;
     margin-left: 5px;
     background-color: #FFFFFF;
@@ -120,7 +120,7 @@ height:350px;
     background-image:linear-gradient(60deg, white,  
 #F6B715);
 
-  
+}
 
 }
 #text
@@ -201,7 +201,17 @@ footer
     font-size: 15px;
     color: #848484;
     width: 100%;
+    
 
+}
+.container-text-cadre
+{
+        padding: 10px;
+    font-size: 15px;
+    color: #848484;
+    width: 100%;
+    background-image: url(image/fond-bleu-site.jpg);
+    height: 400px;
 }
 .imgFoot
 {
@@ -250,4 +260,19 @@ a:hover
     width: 75%;
     border-radius: 15px;
     box-shadow: 1px 1px 12px #555;
+}
+.container-center
+{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.img-language
+{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    display:inline;
 }
