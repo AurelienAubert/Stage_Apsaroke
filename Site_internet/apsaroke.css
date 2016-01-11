@@ -1,5 +1,5 @@
 html,body{
-    background-image: url("image/fond.jpg");
+    background-image: url("image/fondapsa.png");
     background-size: cover;
     width: 100%;
     height: auto;
@@ -45,6 +45,18 @@ nav
       
 );
 }
+.btn
+{
+    color:#808080;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500px;
+}
+.btn:hover
+{
+    color: white;
+}
+
 img  /* empêche les images de prendre trop de place */
 {
   max-width: 100%;
@@ -158,6 +170,10 @@ li
     display : list-item;
      background-position: 0 0 .32em;
     
+}
+.dropdown-menu.li
+{
+     list-style: none;
 }
 h1
 {
