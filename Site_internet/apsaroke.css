@@ -1,6 +1,6 @@
 html,body{
     background-image: url("image/fond.jpg");
-    background-size: 100%;
+    background-size: 100% 100%;
     width: 100%;
     height: auto;
     margin: auto;
@@ -153,6 +153,7 @@ li
     margin-left: 60px;
     list-style-image: url(image/fleche.jpg);
     display : list-item;
+     background-position: 0 0 .32em;
     
 }
 h1
@@ -207,13 +208,14 @@ footer
 }
 .container-text-cadre
 {
-        padding: 10px;
+    padding: 10px;
     font-size: 15px;
     color: #848484;
-    width: 100%;
+    width: 90%;
     background-image: url(image/fond-bleu-site.jpg);
     height: auto;
-    background-position: 0 0.32em;
+    margin: auto;
+    
 }
 .imgFoot
 {
@@ -269,7 +271,8 @@ a:hover
     width: 95%;
     height: 95%;
     margin: auto;
-    margin-top: 20px;
+     margin-top: 20px;
+    margin-bottom: 20px;
     overflow: hidden;
 }
 .img-language
