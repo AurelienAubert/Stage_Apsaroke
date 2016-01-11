@@ -1,6 +1,6 @@
 html,body{
     background-image: url("image/fond.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     width: 100%;
     height: auto;
     margin: auto;
@@ -19,6 +19,7 @@ html,body{
     margin: auto; /* Pour centrer la page */
     background-color: #EBEBEB;
     font-family: "HelveticaNeue","Helvetica Neue",Arial,sans-serif;
+    margin-top: 55px;
     
 }
 nav
@@ -26,6 +27,7 @@ nav
     width: 1024px;
     margin: auto;
      min-height: 100%;
+
 }
 .navbar-brand
 {
@@ -35,11 +37,12 @@ nav
 }
 .navbar-inverse .navbar-brand
 {
-    color: #383838;
+    color:#808080;
 }
 .navbar-inverse
 {
-        background-image:linear-gradient( #6699FF ,white   
+         background-color: #383838;
+      
 );
 }
 img  /* empêche les images de prendre trop de place */
@@ -49,9 +52,9 @@ img  /* empêche les images de prendre trop de place */
 }
 #header_page
 {
-    width: auto;
-    height: auto;
-    background-color: #FFFFFF;
+    width: 100%;
+    height: 250px;
+    background-image: url(image/fond_head.jpg);
     color: white;
 }
 .img_head
@@ -215,6 +218,8 @@ footer
     background-image: url(image/fond-bleu-site.jpg);
     height: auto;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 .imgFoot
@@ -277,7 +282,7 @@ a:hover
 }
 .img-language
 {
-    width: 80px;
+    width: auto;
     height: 80px;
     margin: auto;
     display:inline;
@@ -289,7 +294,7 @@ a:hover
 .work
 {
     width: 450px;
-    height: 200px;
+    height: 250px;
     margin: auto;
     display:inline; 
     float: right;
