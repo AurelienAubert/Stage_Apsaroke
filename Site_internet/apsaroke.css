@@ -88,22 +88,6 @@ section {
     background-color: #E6E6FA;
 }
 
-.container-fluid
-/* bloc : présentation du lycée */
-
-{
-    height: 100%;
-    width: 75%;
-    /* largeur du bloc */
-    color: black;
-    text-align: justify;
-    /* texte justifié (aligné à droite et à gauche) */
-    background-color: #FFFFFF;
-    padding: 30px;
-    margin-left: 0px;
-    margin-top: 0px;
-    ;
-}
 
 #global {
     width: 100%;
@@ -138,31 +122,14 @@ section {
     color: #1C73D3;
     float: left;
 }
-ul {
-    list-style-type: none;
-    left: auto;
-}
-li {
-    font-weight: 500;
-    margin-left: 60px;
-    list-style-image: url(image/fleche.jpg);
-    display: list-item;
-    background-position: 0 0 .32em;
-    left: auto;
-}
-.dropdown-menu.li {
-    list-style: none;
-    left: auto;
-}
+
 h1 {
     font-size: 25px;
     color: #1C73D3;
     font-weight: 500;
     height: 65px;
 }
-p {
-    font-weight: 500;
-}
+
 h2 {
     color: #F6B715;
     text-decoration: underline;
@@ -204,10 +171,46 @@ footer {
     margin-bottom: 30px;
 }
 .imgFoot {
-    width: 100px;
-    height: 120px;
+    width: 75px;
+    height: 75px;
     float: left;
+    margin-top: 165px;
+    margin-left: 30px;
 }
+
+footer {
+    background-color: #202020;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.mentions {
+    width: 500px;
+    height: 100px;
+    float: right;
+    color: #808080;
+    padding-right: 15px;
+    padding-top: 5px;
+    text-align: right;
+    font-size: 10px;
+}
+
+.societe {
+    margin-top: 10px;
+    margin-left: 12.5px;
+    height: 500px;
+    width: 760px;
+    /* largeur du bloc */
+    color: black;
+    text-align: justify;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border: 1px solid black;
+    font-size: 20px;
+    ;
+}
+
 .apsaroke {
     font: bold 15px Mistral, Arial, Helvetica, sans-serif;
     color: #1C73D3;
