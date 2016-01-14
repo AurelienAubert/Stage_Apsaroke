@@ -23,7 +23,10 @@ body {
     background-color: white;
     overflow: hidden;
     margin: auto;
-}      
+}  
+.row {
+    overflow: hidden;
+} 
 h1, h2, h3, h4, H5, H6 {
  font-family: 'Raleway', sans-serif;
  font-weight: 700;
@@ -170,11 +173,6 @@ h1 {
     font-weight: 500;
     height: 65px;
 }
-
-h2 {
-    color: #F6B715;
-    text-decoration: underline;
-}
 footer {
     background-color: #202020;
     height: auto;
@@ -189,7 +187,7 @@ footer {
 }
 
 .container-text {
-    padding: 10px;
+    padding: 30px;
     border-bottom: #ECECEC solid 0.5px;
     border-top: #ECECEC solid 0.5px;
     font-size: 15px;
@@ -273,9 +271,7 @@ footer {
     margin: auto;
     display: inline;
 }
-.row {
-    overflow: hidden;
-}
+
 .work {
     width: 450px;
     height: 250px;
