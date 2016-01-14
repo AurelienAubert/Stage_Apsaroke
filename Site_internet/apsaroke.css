@@ -6,7 +6,7 @@ html{
     margin: auto;
 }
 body {
-    width: 80%;
+    width: 75%;
     /* Pour fixer la largeur de la page */
     height: 100%;
     margin:  auto;
@@ -19,7 +19,7 @@ body {
 
 .container
 {
-    width: 98%;
+    width: 100%;
     background-color: white;
     overflow: hidden;
     margin: auto;
@@ -120,12 +120,11 @@ img
     height: 150px;
     margin:auto;
     margin-top: -20px;
+    background-image: url(image/header.png)
 }
 section {
   
-    margin-top: 10px;
-    margin-bottom: 10px;
-    overflow: auto;
+    margin-top: 5px;
     width: 100%;
     background-color: white;
 }
@@ -183,6 +182,10 @@ footer {
     width: 100%;
     overflow: hidden;
     margin: auto;
+    -moz-box-shadow: inset 0 0 1em #E1E1E1;
+-webkit-box-shadow: inset 0 0 1em #E1E1E1;
+        box-shadow: inset 0 0 1em #E1E1E1;
+    padding: 20px;
 }
 
 .container-text {
@@ -293,4 +296,39 @@ section.row {
 	background-color:#5f666d;
 	color:white;
 	}
+.text_head
+{
+    left: 0px;
+margin: 0px auto;
+padding-top: 2.5em;
+text-align: center;
+top: 0px;
+width: 100%;
+    font-size: 138%;
+        font-family: "Lucida Sans","Lucida Grande","Lucida Sans Unicode","Luxi Sans",Arial,Helvetica,sans-serif;
+    color: #F5B714;
+    font-weight: bold;
+}
 
+.carousel-control.left
+{
+    width: 70px;
+     background-color: white;
+}
+.carousel-control.right
+{
+    width: 70px;
+    background-color: white;
+}
+.carousel-indicators li
+{
+    
+    border: 2.5px ridge #172F44;
+    background-color: black;
+    
+}
+.carousel-indicators .active
+{
+    background-color: white;
+    border : 3px ridge #172F44;
+}
