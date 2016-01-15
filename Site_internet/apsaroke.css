@@ -2,7 +2,7 @@ html{
     background-image: url("image/fondapsa.png");
     background-size: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: auto;
 }
 body {
@@ -283,12 +283,9 @@ section.row {
 	}
 .text_head
 {
-    left: 0px;
-margin: 0px auto;
 padding-top: 2.5em;
-text-align: center;
+padding-left: 30px;
 top: 0px;
-width: 100%;
     font-size: 138%;
         font-family: "Lucida Sans","Lucida Grande","Lucida Sans Unicode","Luxi Sans",Arial,Helvetica,sans-serif;
     color: #F5B714;
@@ -296,54 +293,18 @@ width: 100%;
     margin-top: -20px;
 }
 
-.carousel-control.left
-{
-    width: 70px;
-     background-color: #E6E6FA;
-}
-.carousel-control.right
-{
-    width: 70px;
-    background-color: #E6E6FA;;
-}
-.carousel-indicators li
-{
-    
-    border: 2.5px ridge #172F44;
-    background-color: black;
-    
-}
-.carousel-indicators .active
-{
-    background-color: white;
-    border : 3px ridge #172F44;
+.carousel-page {
+    width: 100%;
+    height: 472px;
+    background-color: #5f666d;
+    color: white;
 }
 .social
 {
     display: inline;
 }
 
-* img survol souris */  
-a.imag{  
-position: relative;  
-z-index: 1;  
-}  
-a.imag:hover{  
-  
-z-index: 2;  
-}  
-a.imag span{  
-  
-    display:none;  
-}  
-a.imag:hover span{  
-display:block;  
-position:absolute;  
-z-index: 3;  
-top: -15px;  
-left: 140px;  
-      
-}   
+
 
 
 
