@@ -50,9 +50,9 @@ body {
     border-radius: 5px;
     color: black;
     /* couleur noire*/
-    padding-right: 10px;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 13px;
+    
 }
 
 .blocDroit.nav {
@@ -306,4 +306,7 @@ footer {
     height: 400px;
     background-color: #5f666d;
     color: white;
+	-webkit-transition: 30s ease-in-out left;
+       -o-transition: 30s ease-in-out left;
+          transition: 30s ease-in-out left; 
 }
