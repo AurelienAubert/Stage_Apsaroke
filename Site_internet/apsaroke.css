@@ -109,9 +109,9 @@ img
     height: 100px;
     margin:auto;
     margin-top: -15px;
-    background-image: url(image/header.png);
     border : 1px solid black;
     border-radius: 10px;
+    background-repeat : no-repeat;
 }
 section {
   
@@ -187,7 +187,7 @@ footer {
 .container-text-cadre {
     padding: 40px;
     color: #848484;
-    background-image: url(image/fond-bleu-site.jpg);
+    background-color: white;
     height: auto;
     margin: auto;
     border-radius: 10px;
@@ -298,11 +298,20 @@ top: 0px;
     background-color: #5f666d;
     color: white;
 }
-.social
-{
-    display: inline;
-}
 
+.carousel-control.left
+{
+    width: 30px;
+}
+.carousel-control.right
+{
+       width: 30px;
+}
+#carouselButtons {
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0px;
+}
 
 
 
