@@ -23,6 +23,7 @@ body {
     background-color:#E6E6FA;
     overflow: hidden;
     margin: auto;
+    height: auto;
 }  
 .row {
     overflow: hidden;
@@ -37,7 +38,6 @@ p {
  margin-bottom: 12px;
  font-family: 'Raleway', sans-serif;
  font-weight: 400;
- font-size: 14px;
  line-height: 24px;
  color: #384452;
  margin-top: 10px;
@@ -173,6 +173,7 @@ footer {
 -webkit-box-shadow: inset 0 0 1em #E1E1E1;
         box-shadow: inset 0 0 1em #E1E1E1;
     padding: 20px;
+    font-size: 10px;
 }
 
 .container-text {
@@ -184,15 +185,11 @@ footer {
     width: 100%;
 }
 .container-text-cadre {
-    padding: 10px;
-    font-size: 15px;
+    padding: 40px;
     color: #848484;
-    width: 90%;
     background-image: url(image/fond-bleu-site.jpg);
     height: auto;
     margin: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 .imgFoot {
     width: 75px;
@@ -210,7 +207,7 @@ footer {
     padding-right: 15px;
     padding-top: 5px;
     text-align: right;
-    font-size: 10px;
+    font-size: 5px;
 }
 
 .societe {
@@ -262,7 +259,7 @@ footer {
 }
 
 .work {
-    width: 450px;
+    width: 375px;
     height: 250px;
     margin: auto;
     display: inline;
@@ -295,7 +292,7 @@ top: 0px;
 
 .carousel-page {
     width: 100%;
-    height: 472px;
+    height: 418px;
     background-color: #5f666d;
     color: white;
 }
