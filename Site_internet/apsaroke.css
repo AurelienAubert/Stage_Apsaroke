@@ -190,6 +190,8 @@ footer {
     background-image: url(image/fond-bleu-site.jpg);
     height: auto;
     margin: auto;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 .imgFoot {
     width: 75px;
