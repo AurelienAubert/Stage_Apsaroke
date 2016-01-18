@@ -16,8 +16,8 @@ ul{
 </style>
 <div id="wobble">
 	<ul>
-		<li><a href="accueil.html"><img src="image/LogoApsa.jpg"</a></li>
-		<li><a href="#"><img src="image/LogoPiedPage.jpg"</a></a></li>
+		<li><a href="../acceuil.html"><img src="../image/LogoApsa.jpg"</a></li>
+		<li><a href="#">JavaScript</a></li>
 		<li><a href="#">HTML</a></li>
 		<li><a href="#">PHP</a></li>
 		<li><a href="#">Ajax</a></li>
@@ -29,7 +29,7 @@ ul{
 </div>
 <div align=center valign=top style="font-size: 10px;color: #dadada;" id="dumdiv">
 <a href="http://www.hscripts.com" id="dum" style="font-size: 10px;color: #dadada;text-decoration:none;color: #dadada;">&copy;h</a></div>
-<script type="text/javascript" src="/Site_internet/jquery/jquery.js"></script>
+<script type="text/javascript" src="./jquery.js"></script>
 
 <script type="text/javascript">
 var radious=200;//Change the Radious of circle
