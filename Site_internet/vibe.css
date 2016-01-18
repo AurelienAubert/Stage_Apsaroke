@@ -69,7 +69,7 @@ body {
 }
 
 section {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: auto;
     margin-bottom: 10px;
     overflow: auto;
@@ -88,10 +88,10 @@ section {
     text-align: center;
     border-radius: 10px;
     background-color: #FFFFFF;
-    padding: 30px;
+    padding: 20px;
     border: 1px solid black;
     font-size: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     overflow: hidden;
 }
 
@@ -306,39 +306,4 @@ footer {
     height: 400px;
     background-color: #5f666d;
     color: white;
-}
-.ex4 li {
-	display: inline-block;
-	width: 200px;
-	margin: 0 10px;
-	padding: 5px;
-	box-shadow: 0 0 65px #CDBE9F inset, 0 0 20px #BEAE8C inset, 0 0 3px #816F47;
-}
-.ex4 figure {
-	position: relative;
-	display: inline-block;
-	width: 200px;
-	height: 125px;
-	margin: 0;
-	text-align: center;
-	overflow: hidden;
-}
-.ex4 figcaption {
-	position: absolute;
-	left: 0; bottom: -1em;
-	width: 200px;
-	height: 2.6em;
-	line-height: 1.5em;
-	text-align: center;
-	color: #fff;
-	background: rgba(0,0,0,0.6);
-	overflow: hidden;
-	/*préparation de la transition*/
-	transition: all 0.7s;
-}
-.ex4 figcaption span { display: block; }
-.ex4 figure:hover figcaption,
-.ex4 figure:focus figcaption {
-	height: 4.2em;
-	background: rgba(0,0,0,0.8);
 }
