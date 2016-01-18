@@ -1,5 +1,5 @@
 html {
-/*    <!-- Attention une barre blanche non prévue persiste dans le fond, elle n'est pas liée au fond -->*/
+    /*    <!-- Attention une barre blanche non prévue persiste dans le fond, elle n'est pas liée au fond -->*/
     position: relative;
     background-image: url("image/portail.png");
     background-size: 100%;
@@ -16,6 +16,8 @@ body {
 
 .container {
     text-align: center;
+    position: absolute;
+    margin-top: 300px;
 }
 
 .img1 {
@@ -91,9 +93,57 @@ body {
     margin-left: 0px;
     border-radius: 10px;
 }
-.sponsoring{
+
+.sponsoring {
     position: absolute;
     margin-top: 500;
     text-align: center;
     margin-left: 450px;
+}
+
+#galerie-menu {
+    width: 670px;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#galerie-menu a img {
+    height: 135px;
+    width: 240px;
+    border: none;
+    vertical-align: top;
+}
+
+#galerie-menu a {
+    border-radius: 15px;
+    display: inline-block;
+    transform: scale(1);
+    overflow: hidden;
+    box-shadow: 0 0 15px gray;
+    border: solid white;
+    transition: 1s;
+    z-index: 1;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#galerie-menu a:hover,
+#galerie-menu a:focus {
+    transform: scale(1.5);
+    transform-origin: top center;
+    z-index: 5;
+    background: white;
+    transition: 1s;
+}
+
+#galerie-menu a:before {
+    content: attr(title);
+    position: absolute;
+    color: white;
+    bottom: 0;
+    box-shadow: 0 0 3px white;
+    display: block;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
 }
