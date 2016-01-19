@@ -32,9 +32,9 @@
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="accueil.html">Accueil <span class="sr-only">(current)</span></a></li>
+        <li ><a href="accueil.html">Accueil <span class="sr-only">(current)</span></a></li>
         <li><a href="societe.html">Société</a></li>
-                   <li><a href="metiers.html">Métiers</a></li>
+                   <li class="active"><a href="metiers.html">Métiers</a></li>
                 <li><a href="strategieRH.html">Recrutement</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -44,30 +44,44 @@
 
 
     <div id="header_page" style="background-color: #FFFFFF">
-        <a href="portail.html"><img src="image/LogoApsa.jpg" style="width: 70%; height: 95px; margin-left: 150px;"></a>
+       <a href="portail.html"><img src="image/LogoApsa.jpg" style="width: 60%; height: 95px; margin-left: 180px;"></a>
         </div>
 
 
     <section>
         <div class="container">
+                        <div class="blocDroit">
+
+            <div class="nav1">
+                <h3> Contact : </h3>
+                <p>Bernard PEYRIN<br />
+                    Directeur
+                    <br />
+                    <p>Lolita MARTIN<br />
+                    assistante RH</p>
+                <p>8, rue Victor Lagrange
+                    <br>69007 Lyon</p>
+                <p><a href="mailto:message@apsaroke.com"><img src="image/email.png" height="24" width="24"></img></a> message@apsaroke.com</p>
+                <p>Tél: 04.37.65.12.28</p>
+                 <p><a href="https://fr-fr.facebook.com/pages/Apsaroke/638127282879757"><img src="image/facebook.png"></img></a> Découvrez <span class="apsaroke">APSAROKE</span> sur facebook</p>
+                <p><a href="https://fr.linkedin.com/in/apsaroke-lyon-159a76a8"><img src="image/linkedin.png" height="24" width="24"></img></a>Découvrez <span class="apsaroke">APSAROKE</span> sur Linkedin.</p>
+<p><a href="http://fr.viadeo.com/fr/profile/groupe.apsaroke"><img src="image/viadeo.png" height="24" width="24"></img></a>Découvrez <span class="apsaroke">APSAROKE</span> sur Viadeo.</p></p>
+
+        </div>
+    </div>
 
             <div class="row">
                                 <div class="container-text-cadre">
                 
                     
             <div id="my_carousel" class="carousel slide" data-ride="carousel">
-	<!-- Bulles -->
-	<ol class="carousel-indicators">
-	<li data-target="#my_carousel" data-slide-to="0" class="active"></li>
-	<li data-target="#my_carousel" data-slide-to="1"></li>
-	<li data-target="#my_carousel" data-slide-to="2"></li>
 
-	</ol>
 	<!-- Slides -->
 	<div class="carousel-inner">
 	<!-- Page 1 -->
 	<div class="item active">  
 	<div class="carousel-page">
+                <!-- image libre de droit et gratuite : (pixabay) https://pixabay.com/fr/marque-marqueur-main-laissez-516278/ -->
 	<img src="image/ingenieur.png" class="img-responsive img-rounded" style="margin:0px auto; height: 100%; width: 100%;" />
 	</div> 
 	<div class="carousel-caption"></div>
@@ -75,6 +89,7 @@
 	<!-- Page 2 -->
 	<div class="item">  
 	<div class="carousel-page">
+        <!-- image libre de droit et gratuite : (pixabay) http://fr.freepik.com/index.php?goto=41&idd=667586&url=aHR0cDovL3BpeGFiYXkuY29tL2VuL2J1c2luZXNzLWJ1c2luZXNzbWFuLWNvbGxlYWd1ZS0xNTQ5OC8= -->
 	<img src="image/commercial.png"g class="img-responsive img-rounded" 
 	style="margin:0px auto;max-height:100%; width: 100%;"  />
 	</div>  
@@ -83,6 +98,7 @@
         <!-- Page 3 -->
         <div class="item">  
 	<div class="carousel-page">
+               <!-- image libre de droit et gratuite : (pixabay) https://pixabay.com/en/consultant-office-business-finance-779590/ -->
 	<img src="image/consultantSAP.png"g class="img-responsive img-rounded" 
 	style="margin:0px auto;max-height:100%; width: 100%;"  />
 	</div>  
@@ -96,6 +112,8 @@
 	<a class="right carousel-control" href="#my_carousel" data-slide="next">
 	<span class="glyphicon glyphicon-chevron-right"></span>
 	</a>
+                   <button type="button" id="myBtn" class="btn btn-default btn-lg" id="myBtn">Play</button>
+  <button type="button" id="myBtn2" class="btn btn-default btn-lg" id="myBtn">Stop</button><br><br>  
 	</div>
        
                     </div>  
@@ -104,26 +122,52 @@
 
 
     <footer>
-        <div class="row">
-            <div class="col-lg-6">
-                   <a href="portail.html"><img class="imgFoot" src="image/LogoPiedPageNav.png"></img></a>
-            </div>
-            <div class="col-lg-6">
-      
-                    <div class="mentions">APSAROKE SAS <br>
+            <div class="row">
+                <div class="col-lg-6">
+                       <a href="portail.html"><img class="imgFoot" src="image/LogoPiedPageNav.png"></img></a>
+                </div>
+                <div class="col-lg-6">
+                    <div style="float:right;">
+                        <span class="mentions">APSAROKE SAS <br>
                 Société par action simplifiée au capital de 39 000€ <br> 435 379 284 RCS Lyon <br>
 Siège social : 8 rue Victor Lagrange 69007 LYON <br>
 Tel : +33 (0)4 37 65 12 28 <br>
-Publication Director : / Directeur de la publication : M. Bernard Peyrin</div>
+Publication Director : / Directeur de la publication : M. Bernard Peyrin</span>
 
+
+                    </div>
                 </div>
-
-    </footer>
+            </div>
+        </footer>
     </section>
     <!-- jQuery -->
     <script src="jquery/jquery.min.js"></script>
     <!-- JavaScript Boostrap plugin -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+                <script>
+$(document).ready(function(){
+    // Activate Carousel
+    $("#my_carousel").carousel("pause");
+
+    // Click on the button to start sliding 
+    $("#myBtn").click(function(){
+        $("#my_carousel").carousel("cycle");
+    });
+
+    // Click on the button to stop sliding 
+    $("#myBtn2").click(function(){
+        $("#my_carousel").carousel("pause");
+    });
+        
+    // Enable Carousel Controls
+    $(".left").click(function(){
+        $("#my_carousel").carousel("prev");
+    });
+    $(".right").click(function(){
+        $("#my_carousel").carousel("next");
+    });
+});
+</script>
 </body>
 
 </html>
