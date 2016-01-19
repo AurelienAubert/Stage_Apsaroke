@@ -260,8 +260,8 @@ footer {
 }
 
 .work {
-    width: 375px;
-    height: 250px;
+    width: 350px;
+    height: 275px;
     margin: auto;
     display: inline;
     float: right;
@@ -317,6 +317,13 @@ top: 0px;
       border-radius: 10px;
     border: 1px solid black;
     
+}
+.img-societe
+{
+   position: absolute; 
+    width: 100%; 
+    height: 400px; 
+    opacity:0.3;
 }
 
 
