@@ -313,7 +313,12 @@ footer {
           transition: 30s ease-in-out left;
     
 }
-.left carousel-control
+.carousel-control.left
+{
+    background: none;
+}
+.carousel-control.right
 {
     background: pink;
 }
+
