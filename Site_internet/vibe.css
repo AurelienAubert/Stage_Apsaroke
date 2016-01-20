@@ -310,5 +310,10 @@ footer {
     color: white;
 	-webkit-transition: 30s ease-in-out left;
        -o-transition: 30s ease-in-out left;
-          transition: 30s ease-in-out left; 
+          transition: 30s ease-in-out left;
+    
+}
+.left carousel-control
+{
+    background: pink;
 }
