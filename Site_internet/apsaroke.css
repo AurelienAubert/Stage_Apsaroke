@@ -288,11 +288,17 @@ top: 0px;
     margin-top: 390px; 
     margin-left: -30px;
     width: 50px;
-    background-color: #1C73D3;
+background-image:linear-gradient(white, black);
 }
-.carousel-control.left
-{
+.carousel-control.left {
     margin-left: -0px;
+    background-image: linear-gradient(to right, rgba(0, 92, 254, 0.5) 25px, rgba(231, 17, 254, 0) 100%);
+    background-repeat: repeat-x;
+}
+.carousel-control.right{
+    margin-left: -0px;
+    background-image: linear-gradient(to right, rgba(0, 92, 254, 0.5) 25px, rgba(231, 17, 254, 0) 100%);
+    background-repeat: repeat-x;
 }
 
 .blocDroit
