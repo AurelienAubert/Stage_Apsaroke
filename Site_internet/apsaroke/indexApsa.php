@@ -17,14 +17,14 @@
 </head>
 
 <body>
-    
+       <?php include 'nav.php';  ?>
 
     <div id="header_page" style="background-color: #FFFFFF">
        <a href="portail.html"><img src="image/LogoApsa.jpg" style="width: 70%; height: 95px; margin-left: 150px;"></a>
     
 </div>
     
-        <?php include 'nav.php';  ?>
+     
                 
 <section>
             <div class="container">
