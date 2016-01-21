@@ -315,10 +315,14 @@ footer {
 }
 .carousel-control.left
 {
-    background: none;
+   
+    border-radius : 50px;
+    background: radial-gradient( circle at center, pink, #ff1493);
 }
+
 .carousel-control.right
 {
-    background: pink;
+    border-radius : 50px;
+    background: radial-gradient( circle at center, pink, #ff1493);
 }
 
