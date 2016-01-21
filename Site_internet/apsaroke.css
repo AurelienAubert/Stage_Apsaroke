@@ -16,6 +16,10 @@ body {
     box-shadow: -1px 2px 5px 5px rgba(0, 0, 0, 0.7); 
 
 }
+.container-fluid
+{
+        background-image: linear-gradient(to bottom, grey, white);
+}
 
 .container
 {
@@ -309,7 +313,7 @@ background-image:linear-gradient(white, black);
 
 .carousel-control.right{
     margin-left: -0px;
-    background-image: linear-gradient(to right, rgba(0, 92, 254, 0.5) 25px, rgba(231, 17, 254, 0) 100%);
+    background-image: linear-gradient(to left, rgba(0, 92, 254, 0.5) 25px, rgba(231, 17, 254, 0) 100%);
     background-repeat: repeat-x;
 }
 
@@ -342,7 +346,15 @@ background-image:linear-gradient(white, black);
 {
     margin-left: 44%;
 }
-
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: black;
+    background-color: transparent;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #555;
+    font-weight: bold;
+}
 
 
 
