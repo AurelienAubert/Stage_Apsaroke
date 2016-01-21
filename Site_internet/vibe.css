@@ -41,7 +41,7 @@ body {
 /* menu */
 
 {
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 5px;
     float: right;
     width: 225px;
@@ -79,7 +79,7 @@ section {
 }
 
 .article {
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: 12.5px;
     height: auto;
     width: 750px;
