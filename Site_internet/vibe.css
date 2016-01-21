@@ -4,7 +4,6 @@ html {
     background-size: cover;
     width: 100%;
     height: auto;
-     background-repeat:no-repeat;
 }
 
 body {
@@ -42,7 +41,7 @@ body {
 /* menu */
 
 {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 5px;
     float: right;
     width: 225px;
@@ -70,7 +69,7 @@ body {
 }
 
 section {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: auto;
     margin-bottom: 10px;
     overflow: auto;
@@ -80,7 +79,7 @@ section {
 }
 
 .article {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 12.5px;
     height: auto;
     width: 750px;
@@ -158,7 +157,7 @@ h3 {
 
 footer {
     background-color: #202020;
-    height: 140px;
+    height: 140ghpx;
     margin-bottom: 10px;
 }
 
@@ -316,12 +315,10 @@ footer {
 }
 .carousel-control.left
 {
-      border-radius: 30px;
- background: radial-gradient( circle at center,pink, #ff1493);
+    background: none;
 }
 .carousel-control.right
 {
-    border-radius: 30px;
- background: radial-gradient( circle at center,pink, #ff1493);
+    background: pink;
 }
 
