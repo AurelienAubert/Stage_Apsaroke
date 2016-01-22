@@ -1,5 +1,5 @@
 html{
-    background-image: url("image/fondvibel.png");
+    background-image: url("image/fondvibe.png");
     background-size: 100% 100%;
     width: 100%;
     height: auto;
@@ -193,8 +193,8 @@ footer {
     border-radius: 10px;
     border: 1px solid black;
     width:97%;
-    margin-top: 50px;
-    margin-bottom: 90px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .imgFoot {
@@ -360,7 +360,7 @@ background-image:linear-gradient(white, black);
 /* menu */
 
 {
-    margin-top: 50px;
+    margin-top: 20px;
     float: right;
     width: 225px;
      height: 488px;
