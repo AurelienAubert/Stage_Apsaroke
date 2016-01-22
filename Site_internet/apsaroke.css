@@ -19,6 +19,8 @@ body {
 .container-fluid
 {
         background-image: linear-gradient(to bottom, grey, white);
+    width: 100%;
+    
 }
 
 .container
@@ -373,18 +375,7 @@ background-image:linear-gradient(white, black);
     
 }
 
-.blocDroit.nav {
-    margin-right: 5px;
-    margin-top: 10px;
-    margin-left: 5px;
-    float: left;
-    width: 100%;
-    background-color: white;
-    /* Fond blanc */
-    border-radius: 5px;
-    color: black;
-    /* couleur noire*/
-}
+
 
 section {
     margin-top: 20px;
@@ -413,10 +404,7 @@ section {
     overflow: hidden;
 }
 
-.nav1 {
-    margin-left: 10px;
-    padding: inherit;
-}
+
 
 ul {
     list-style-type: none;

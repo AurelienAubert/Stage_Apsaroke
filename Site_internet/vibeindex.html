@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
     <link href="vibe.css" rel="stylesheet">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 
@@ -9,23 +9,32 @@
 </head>
 
 <body>
-    <div class="container">
+    
+           <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
 
-        <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
-            <a class="navbar-brand" href="portail.html" style="padding-top:5px; margin-left: 90px;"></a>
-            <div class="navbar-header">
-
-
-                <a class="navbar-brand" href="vibeindex.html"><b class="gras" id="encours"> Accueil</b></a>
-                <a class="navbar-brand" href="vibesociete.html"><b class="gras">Société</b></a>
-
-                <a class="navbar-brand" href="viberecrutement.html"><b class="gras">Carrière</b></a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse-target">
-            </div>
     </div>
-    </nav>
-    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="vibeindex.html">Accueil <span class="sr-only">(current)</span></a></li>
+        <li><a href="vibesociete.html">Société</a></li>
+                  <li><a href="viberecrutement.html">Carrières</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  
 
     <div class="header_page" style="background-color: grey">
         <img class="img_head" src="image/vibe.png" alt="vibe"></img>

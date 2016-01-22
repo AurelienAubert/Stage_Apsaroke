@@ -328,3 +328,18 @@ footer {
 }
 .navbar-header ,#encours a {
     color: #f15;
+}
+/* Couleur utilisée pour le lien actif (celui qui est affiché sur la page) */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+color: #FF1493;
+
+}
+.container-fluid
+{
+        background-image: linear-gradient(to bottom, grey, white);
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
