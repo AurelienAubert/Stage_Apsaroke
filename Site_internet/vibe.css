@@ -17,7 +17,7 @@ body {
 
 .header_page {
     margin-left: 12.5px;
-    margin-top: 55px;
+    margin-top: -20px;
     width: 1000px;
     height: 100px;
     background-color: grey;
@@ -111,11 +111,6 @@ li {
     font-weight: 600;
 }
 
-#navbar {
-    background-color: #a7bdff;
-    text-color: black;
-    background-image: linear-gradient(to bottom, grey, white);
-}
 
 .gras {
     color: black;
@@ -333,6 +328,11 @@ footer {
     color: #FF1493;
     background-color: transparent;
 }
+.navbar-default
+{
+                background-image: linear-gradient(to bottom, grey, white);
+}
 .navbar-default .navbar-nav > li > a {
     color: black;
+    font-weight: bold;
 }
