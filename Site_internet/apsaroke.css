@@ -463,12 +463,12 @@ footer {
     margin-left: 44%;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: black;
+    color: #1C73D3;
     background-color: transparent;
     font-weight: bold;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #555;
+    color: black;
     font-weight: bold;
 }
 
