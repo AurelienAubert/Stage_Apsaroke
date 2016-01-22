@@ -98,6 +98,7 @@ section {
 .nav1 {
     margin-left: 10px;
     padding: inherit;
+    
 }
 
 ul {
@@ -325,4 +326,5 @@ footer {
     border-radius : 50px;
     background: radial-gradient( circle at center, pink, #ff1493);
 }
-
+.navbar-header ,#encours a {
+    color: #f15;
