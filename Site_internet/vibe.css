@@ -65,7 +65,7 @@ body {
     /* Fond blanc */
     border-radius: 5px;
     color: black;
-    /* couleur noire*/
+    
 }
 
 section {
@@ -328,3 +328,4 @@ footer {
 }
 .navbar-header ,#encours a {
     color: #f15;
+}
