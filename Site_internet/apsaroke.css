@@ -462,7 +462,66 @@ footer {
 }
 .social
 {
-    display: inline;
+    position: absolute;
+    z-index: 2;
 }
-
+.btn-viadeo img
+{
+    width: 25px;
+    height: 34px;
+    border-radius: 5px;
+    margin-left: 126px;
+    margin-top: 123px;
+    position: absolute;
+    z-index: 2;
+}
+.btn-viadeo:hover
+{
+    color: #FFF;
+    background-color: #2795E9;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-linkedin {
+    color: #FFF;
+    background-color: #007BB6;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 6px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    margin-left: 177px;
+    margin-top: 37px;
+    position: absolute;
+    z-index: 2;
+}
+.btn-linkedin:hover {
+    color: #FFF;
+    border-color: rgba(0, 0, 0, 0.2);
+    background-color: #005983;
+}
+.btn-facebook {
+    color: #FFF;
+    background-color: #3B5998;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    padding-bottom: 6px;
+    border-radius: 5px; 
+    margin-left: 76px;
+    margin-top: 79px;
+    position: absolute;
+    z-index: 2;
+}
+.btn-facebook:hover {
+    color: #FFF;
+    background-color: #2D4373;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.btn-mail img {
+    width: 28px;
+    height: 33px;
+    border-radius: 5px;
+    margin-left: 33px;
+    margin-top: 165px;
+    position: absolute;
+    z-index: 2;
+}
 
