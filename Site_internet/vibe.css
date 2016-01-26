@@ -55,19 +55,6 @@ body {
     
 }
 
-.blocDroit.nav {
-    margin-right: 5px;
-    margin-top: 10px;
-    margin-left: 5px;
-    float: left;
-    width: 100%;
-    background-color: none;
-    /* Fond blanc */
-   
-    color: black;
-    
-}
-
 section {
     margin-top: 20px;
     margin-left: auto;
@@ -120,18 +107,6 @@ li {
 .Apsaroke {
     font: bold 17px Mistral, Arial, Helvetica, sans-serif;
     color: #1c73d3;
-}
-
-#blocContact {
-    width: 210px;
-    background-color: white;
-    border-radius: 10px;
-    margin-left: 10px;
-    /* marge ext. gauche pour ne pas coller à l'article */
-    padding: 20px;
-    /* marge intérieure pour le texte */
-    font-size: 0.9em;
-    border-top: darkgrey 0.5px;
 }
 
 h3 {
