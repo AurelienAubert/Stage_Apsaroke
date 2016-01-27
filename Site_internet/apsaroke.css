@@ -102,12 +102,12 @@ a:focus {
 }
 
 #header_page {
-    width:100%;
-    height: 100px;
-    margin:auto;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
     margin-top: -20px;
     background-repeat : no-repeat;
-     background-image: linear-gradient(white, grey);
+     background-image: url("image/logo_apsaroke.jpg");
 }
 
 section {
@@ -173,12 +173,14 @@ footer {
 .container-text-cadre {
     padding-top: 30px;
     color: #848484;
-    background-color: white;
+    background-color:  #E6E6FA;
     height: 488px;
     margin: auto;
     width:97%;
     margin-top: 20px;
     margin-bottom: 40px;
+      border: 1px solid black;
+    border-radius: 10px;
 }
 
 .imgFoot {
@@ -350,7 +352,6 @@ background-image:linear-gradient(white, black);
      height: 488px;
     color: black;
     /* couleur noire*/
-    padding-top: 15px;
     margin: 0px;
     
 }
@@ -471,7 +472,7 @@ footer {
     height: 33px;
     border-radius: 5px;
     margin-left: 126px;
-    margin-top: 124px;
+    margin-top: 143px;
     position: absolute;
     border: 1px solid white;
     
@@ -485,7 +486,7 @@ footer {
     padding-bottom: 7px;
     border-radius: 5px;
     margin-left: 177px;
-    margin-top: 39px;
+    margin-top: 48px;
     position: absolute;
     border: 1px solid white;
 
@@ -503,7 +504,7 @@ footer {
     padding-bottom: 5px;
     border-radius: 5px; 
     margin-left: 75px;
-    margin-top: 81px;
+    margin-top: 95px;
     position: absolute;
     z-index: 2;
     border: 1px solid white;
@@ -520,7 +521,7 @@ footer {
     height: 31px;
     border-radius: 5px;
     margin-left: 31px;
-    margin-top: 167px;
+    margin-top: 190px;
     position: absolute;
     border: 1px solid white;
 }
@@ -530,6 +531,13 @@ footer {
 .social img:hover,
 .social img:focus
 {
+    transform: scale(1.5);
+    transform-origin: top center;
+    z-index: 5;
+    transition: 1s;
+}
+.map img:hover,
+.map img:focus{
     transform: scale(1.5);
     transform-origin: top center;
     z-index: 5;
