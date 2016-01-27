@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet">
     <link href="apsaroke.css" rel="stylesheet">
+            <link rel="stylesheet"  href="screen.css" type="text/css" />
                     <meta name="description" content="APSAROKE, l'effet 6ème sens : une société de services experte dans le pôle de l'ingénierie informatique et de l'expertise IT. Elle recrute des ingénieurs, des consultants SAP, des commerciaux et des technicien spécialisés dans linformatique industrielle et les automatismes" />
     <meta name="abstract" content="APSAROKE, l'effet 6ème sens : une société de services experte dans le pôle de l'ingénierie informatique et de l'expertise IT. Elle recrute des ingénieurs, des consultants SAP, des commerciaux et des technicien spécialisés dans linformatique industrielle et les automatismes" />
     <meta name="keywords" content=" SSII, ERP, consultant SAP, Ingénieur études et développement, technicien industrie informatique et automatisme, commercial, statégie RH, recrutement, " />
@@ -15,41 +16,15 @@
 </head>
 
 <body>
-        <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+         <?php require 'nav.php'; ?>    
 
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="accueil.html">Accueil <span class="sr-only">(current)</span></a></li>
-        <li><a href="societe.html">Société</a></li>
-                         <li><a href="metiers.html">Métiers</a></li>
-                  <li class="active"><a href="strategieRH.html">Recrutement</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    <div id="header_page">
     
-
-        <div id="header_page" style="background-color: #FFFFFF">
-       <a href="portail.html"><img src="image/LogoApsa.jpg" style="width: 70%; height: 95px; margin-left: 150px;"></a>
-            </div>
-        
+</div>
     <section>
         <div class="container">
-
             <div class="row">
+                <div class="col-lg-9">
                                 <div class="container-text-cadre">
                 
                     
@@ -60,35 +35,94 @@
 	<!-- Page 1 -->
 	<div class="item active">  
 	<div class="carousel-page">
-	<img src="image/recrutement_entretien.png" class="img-responsive img-rounded" style="margin:0px auto; height: 100%; width: 100%;" />
+        <div class="container-text">
+ <h2>Stratégie RH :</h2>
+
+                            <span style="color: black; font-size: 20px; border-bottom: black solid 1px;">LE PROCESSUS DE QUALIFICATION DES RESSOURCES</span>
+                            <br />
+                            <br /> Le cycle de recrutement chez <span class="apsaroke">APSAROKE</span> est très court et nous permet une grande réactivité vis-à-vis de nos clients et des partenaires. Chaque candidat passe un minimum de 2 entretiens comprenant :
+                            <br />
+                            <br />
+   Une partie tests écrits (personnalité, profil professionnel, communication) Une partie entretien oral et tests techniques le cas échéant.
+                            <br />
+ Puis, dans les jours suivant le premier entretien Second entretien oral Et signature du contrat le cas échéant.
+
 	</div> 
 	<div class="carousel-caption"></div>
 	</div>   
+        </div>
 	<!-- Page 2 -->
 	<div class="item">  
-	<div class="carousel-page">
-	<img src="image/recrutement_ingenieur.png"g class="img-responsive img-rounded" 
-	style="margin:0px auto;max-height:600px; width: 100%;"  />
+	<div class="carousel-page" >
+              <div class="container-text">
+                        <span style="font-weight: bold; font-size: 20px; font-style: italic;color: black; padding-left: 60px;">Nous recrutons :</span>
+                        <br />
+                        <div class="container-text">
+                            <span style="color: #1C73D3; text-decoration: underline;"> <img src ="image/fleche.png" height="24px" width="24px" />  INGENIEURS</span>
+                            <br />
+                            <span class="apsaroke">APSAROKE</span> , SSII en pleine expansion, spécialisée dans la prestation de services informatiques dans les nouvelles technologies crée un poste au sein de son département NTIC. Rattaché au chef d’agence, vous intervenez pour des missions longues durées chez nos clients grands comptes. Vous maîtrisez au moins l'une des technologies VB.NET, VBA, java et C++, C#, ASP.NET pour réaliser des spécifications techniques, développer et participer aux phases de tests et de recettes.
+                            <br /> De formation bac +2 minimum en informatique, vous avez une expérience d’au moins 2 ans dans un poste développeur sous environnement VB.NET, C# ou vous démontrez vos capacités de travail en équipe.
+                            <br />
+                            <br /> Envoyez votre candidature par mail LM + CV + prétentions à <a href="mailto:recrutement@apsaroke.fr" style="color:#F5B714;">recrutement@apsaroke.fr</a>
+                            <br />
+                            <br />
+                        </div>
 	</div>  
 	<div class="carousel-caption"></div>
 	</div>
+        </div>
         <!-- Page 3 -->
         <div class="item">  
 	<div class="carousel-page">
-	<img src="image/recrutement_consultant.png" class="img-responsive img-rounded" 
-	style="margin:0px auto;max-height:600px; width: 100%;"  />
+      <div class="container-text" style="padding: 40px;">
+                            <span style="color: #1C73D3; text-decoration: underline;"><img src ="image/fleche.png" height="24px" width="24px" />  CONSULTANTS SAP</span>
+                            <br />
+                            <span class="apsaroke">APSAROKE</span> , SSII en pleine expansion recherche pour son département ERP des compétences fonctionnelles autour de SAP tous modules. Sous la direction du chef d’agence, en fonction de votre profil, vos missions se situeront soit sur des développements ABAP soit sur des missions fonctionnelles et de paramétrages sur votre module de prédilection principalement.
+                            <br /> De formation bac +2 minimum en informatique de gestion avec 2 ans d’expérience minimum sur SAP. Des déplacements seront à prévoir sur le site de nos clients principalement sur Lyon, Paris et Marseille.
+                            <br /> Salaire à négocier selon expérience.
+                            <br />
+                            <br /> Envoyez votre candidature par mail LM + CV + prétentions à <a href="mailto:recrutement@apsaroke.fr" style="color:#F5B714;">recrutement@apsaroke.fr</a>
+                            <br />
+                            <br />
+                        </div>
 	</div>  
 	<div class="carousel-caption"></div>
 	</div>     
            <!-- Page 4 -->
         <div class="item">  
 	<div class="carousel-page">
-	<img src="image/recrutement_commercial.png" class="img-responsive img-rounded" 
-	style="margin:0px auto;max-height:100%; width: 100%;"  />
+    <div class="container-text">
+                            <span style="color: #1C73D3; text-decoration: underline;"><img src ="image/fleche.png" height="24px" width="24px" />  COMMERCIAUX</span>
+                            <br />
+                            <span class="apsaroke">APSAROKE</span> est une SSII à vocation nationale en forte croissance.
+                            <br />
+                            <br /> Ses valeurs sont : respect, reconnaissance, performance et qualité. Grâce au support d’une équipe technique performante, nous souhaitons vous confier la responsabilité de l’ouverture et du suivi de grands comptes : détection des besoins, propositions, négociations, participation aux choix des équipes à mettre en place.
+                            <br /> Salaire motivant (fixe + %).
+                            <br /> De formation commerciale et/ou informatique, senior de la vente de solutions informatiques, votre dynamisme, votre charisme, vos qualités relationnelles et de négociateur(trice), votre sens du service, votre goût des challenges, vous permettront de réussir au sein d’une société très réactive.
+                            <br />
+                            <br /> Envoyez votre candidature par mail LM + CV + prétentions à <a href="mailto:recrutement@apsaroke.fr" style="color:#F5B714;">recrutement@apsaroke.fr</a>
+                            <br />
+                            <br />
+                        </div>
+        	</div>  
+	<div class="carousel-caption"></div>
+	</div>
+        
+          <!-- Page 5 -->
+        <div class="item">  
+	<div class="carousel-page" style="overflow: hidden;">
+            <div class="container-text" style="margin-top: 135px; ">
+                            <span style="color: #1C73D3; text-decoration: underline;"><img src ="image/fleche.png" height="24px" width="24px" />  STAGIAIRES</span>
+                            <br />
+
+                            <span class="apsaroke">APSAROKE</span> accueille toute l'année des stagiaires informaticiens et école de commerce de formation bac +2 / +4, DESS, écoles d'ingénieurs ... En attendant les offres de stage en ligne, merci de formuler votre demande par mail à <a href="mailto:recrutement@apsaroke.fr" style="color:#F5B714;">recrutement@apsaroke.fr</a>
+                        </div>
+                    </div>
 	</div>  
+    
 	<div class="carousel-caption"></div>
 	</div>     
-	</div>
+	
 	<!-- Contrôles -->
 	<a class="left carousel-control" href="#my_carousel" data-slide="prev">
 	<span class="glyphicon glyphicon-chevron-left"></span>
@@ -96,34 +130,26 @@
 	<a class="right carousel-control" href="#my_carousel" data-slide="next">
 	<span class="glyphicon glyphicon-chevron-right"></span>
 	</a>
-   <button type="button" id="myBtn" class="btn btn-default btn-lg" id="myBtn">Play</button>
-  <button type="button" id="myBtn2" class="btn btn-default btn-lg" id="myBtn">Stop</button><br><br>  
+             <button type="button" id="myBtn" class="btn btn-default btn-lg" ><span class="glyphicon glyphicon-play" aria-hidden="true"></span></button>
+  <button type="button" id="myBtn2" class="btn btn-default btn-lg" ><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></button><br><br>  
 	</div>
        
                     </div>  
                 </div>
+
+                  <div class="col-lg-3">
+            <div class="blocDroit">
+<img src="image/indien%20apsa.png"  style="height: 450px;"/>
+
+        </div>
+    </div>
+
                 </div>
 
+</div>
 
-
-        <footer>
-            <div class="row">
-                <div class="col-lg-6">
-                       <a href="portail.html"><img class="imgFoot" src="image/LogoPiedPageNav.png"></img></a>
-                </div>
-                <div class="col-lg-6">
-                    <div style="float:right;">
-                        <span class="mentions">APSAROKE SAS <br>
-
-                Société par action simplifiée au capital de 39 000€ <br> 435 379 284 RCS Lyon <br>
-Siège social : 8 rue Victor Lagrange 69007 LYON <br>
-Tel : +33 (0)4 37 65 12 28 <br>
-Publication Director : / Directeur de la publication : M. Bernard Peyrin</span>
-  </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+  <?php    require 'footer.php'; ?>
+        
         </section>
         <!-- jQuery -->
         <script src="jquery/jquery.min.js"></script>
