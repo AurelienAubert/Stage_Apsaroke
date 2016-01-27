@@ -23,7 +23,7 @@
            <?php require 'nav.php'; ?>
     
     <div id="header_page">
-    
+      <a href='portail.html'></a>
 </div>
 
 <section>

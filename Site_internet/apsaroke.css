@@ -102,12 +102,12 @@ a:focus {
 }
 
 #header_page {
-    width:100%;
-    height: 100px;
-    margin:auto;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
     margin-top: -20px;
     background-repeat : no-repeat;
-     background-image: linear-gradient(white, grey);
+     background-image: url("image/logo_apsaroke.jpg");
 }
 
 section {
