@@ -468,30 +468,27 @@ footer {
 .btn-viadeo img
 {
     width: 25px;
-    height: 34px;
+    height: 33px;
     border-radius: 5px;
     margin-left: 126px;
-    margin-top: 123px;
+    margin-top: 124px;
     position: absolute;
-    z-index: 2;
+    border: 1px solid white;
+    
 }
-.btn-viadeo:hover
-{
-    color: #FFF;
-    background-color: #2795E9;
-    border-color: rgba(0, 0, 0, 0.2);
-}
+
 .btn-linkedin {
     color: #FFF;
     background-color: #007BB6;
     border-color: rgba(0, 0, 0, 0.2);
     padding: 6px;
-    padding-bottom: 9px;
+    padding-bottom: 7px;
     border-radius: 5px;
     margin-left: 177px;
-    margin-top: 37px;
+    margin-top: 39px;
     position: absolute;
-    z-index: 2;
+    border: 1px solid white;
+
 }
 .btn-linkedin:hover {
     color: #FFF;
@@ -503,25 +500,40 @@ footer {
     background-color: #3B5998;
     border-color: rgba(0, 0, 0, 0.2);
     padding: 8px;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     border-radius: 5px; 
-    margin-left: 76px;
-    margin-top: 79px;
+    margin-left: 75px;
+    margin-top: 81px;
     position: absolute;
     z-index: 2;
+    border: 1px solid white;
+  
 }
-.btn-facebook:hover {
+.btn-facebook:hover{
     color: #FFF;
     background-color: #2D4373;
     border-color: rgba(0, 0, 0, 0.2);
+
 }
 .btn-mail img {
     width: 28px;
-    height: 33px;
+    height: 31px;
     border-radius: 5px;
-    margin-left: 33px;
-    margin-top: 165px;
+    margin-left: 31px;
+    margin-top: 167px;
     position: absolute;
-    z-index: 2;
+    border: 1px solid white;
 }
+
+.social a:hover,
+.social a:focus,
+.social img:hover,
+.social img:focus
+{
+    transform: scale(1.5);
+    transform-origin: top center;
+    z-index: 5;
+    transition: 1s;
+}
+
 
