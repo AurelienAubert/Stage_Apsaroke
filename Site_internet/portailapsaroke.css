@@ -154,14 +154,13 @@ footer {
 }
 /* Tooltip */
 .test + .tooltip > .tooltip-inner {
-    background-color: #73AD21;
-    color: #FFFFFF;
-    border: 1px solid green;
-    padding: 15px;
-    font-size: 20px;
-}
-
-/* Tooltip on top */
-.test + .tooltip.top > .tooltip-arrow {
-    border-top: 5px solid green;
-}
+      background-color: #73AD21; 
+      color: #FFFFFF; 
+      border: 1px solid green; 
+      padding: 15px;
+      font-size: 20px;
+  }
+  /* Tooltip on top */
+  .test + .tooltip.top > .tooltip-arrow {
+      border-top: 5px solid green;
+  }
