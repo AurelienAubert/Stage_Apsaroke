@@ -16,13 +16,11 @@ body {
 }
 
 .header_page {
-   
     margin-top: -20px;
     width: 100%;
     height: 100px;
     background-color: #fff;
     color: grey;
-
     background: url("image/vibe2.png");
     /* border: 1px solid black; */
     margin-right: 12.5px;
@@ -47,12 +45,10 @@ body {
     width: 225px;
     height: 440px;
     background-color: none;
-   
     color: black;
     /* couleur noire*/
     padding: 10px;
     margin-right: 13px;
-    
 }
 
 section {
@@ -74,7 +70,6 @@ section {
     color: black;
     text-align: center;
     border-radius: 10px;
-
     padding: 20px;
     border: 1px solid black;
     font-size: 20px;
@@ -86,7 +81,6 @@ section {
 .nav1 {
     margin-left: 10px;
     padding: inherit;
-    
 }
 
 ul {
@@ -98,7 +92,6 @@ li {
     color: #1C73D3;
     font-weight: 600;
 }
-
 
 .gras {
     color: black;
@@ -198,15 +191,12 @@ footer {
 }
 
 .header_sponso {
-  
     margin-top: 45px;
     width: 100%;
     height: 100px;
     background-color: grey;
     color: grey;
-    
-    background-image: linear-gradient(white, grey);
-   
+    background: url("image/headsponso.png");
     margin-right: 12.5px;
 }
 
@@ -251,7 +241,6 @@ footer {
 .sponso2 {
     margin-top: -50px;
     height: 200px;
- 
 }
 
 
@@ -266,7 +255,7 @@ footer {
 .indien {
     margin-left: -20px;
     height: 400px;
-       margin-left: 5px;
+    margin-left: 5px;
 }
 
 .livibe {
@@ -280,45 +269,48 @@ footer {
     height: 400px;
     background-color: #ffffff;
     color: white;
-	-webkit-transition: 30s ease-in-out left;
-       -o-transition: 30s ease-in-out left;
-          transition: 30s ease-in-out left;
-    
+    -webkit-transition: 30s ease-in-out left;
+    -o-transition: 30s ease-in-out left;
+    transition: 30s ease-in-out left;
 }
-.carousel-control.left
-{
-   
-    border-radius : 50px;
+
+.carousel-control.left {
+    border-radius: 50px;
     background: radial-gradient( circle at center, pink, #ff1493);
 }
 
-.carousel-control.right
-{
-    border-radius : 50px;
+.carousel-control.right {
+    border-radius: 50px;
     background: radial-gradient( circle at center, pink, #ff1493);
 }
-.navbar-header ,#encours a {
+
+.navbar-header,
+#encours a {
     color: #f15;
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
     color: #FF1493;
     background-color: transparent;
 }
-.navbar-default
-{
-                background-image: linear-gradient(to bottom, grey, white);
+
+.navbar-default {
+    background-image: linear-gradient(to bottom, grey, white);
 }
+
 .navbar-default .navbar-nav > li > a {
     color: black;
     font-weight: bold;
 }
-.social
-{
+
+.social {
     position: absolute;
     z-index: 2;
 }
-.btn-viadeo img
-{
+
+.btn-viadeo img {
     width: 25px;
     height: 33px;
     border-radius: 5px;
@@ -326,7 +318,6 @@ footer {
     margin-top: 143px;
     position: absolute;
     border: 1px solid white;
-    
 }
 
 .btn-linkedin {
@@ -340,33 +331,34 @@ footer {
     margin-top: 48px;
     position: absolute;
     border: 1px solid white;
-
 }
+
 .btn-linkedin:hover {
     color: #FFF;
     border-color: rgba(0, 0, 0, 0.2);
     background-color: #005983;
 }
+
 .btn-facebook {
     color: #FFF;
     background-color: #3B5998;
     border-color: rgba(0, 0, 0, 0.2);
     padding: 7px;
     padding-bottom: 10px;
-    border-radius: 5px; 
+    border-radius: 5px;
     margin-left: 57px;
     margin-top: 95px;
     position: absolute;
     z-index: 2;
     border: 1px solid white;
-  
 }
-.btn-facebook:hover{
+
+.btn-facebook:hover {
     color: #FFF;
     background-color: #2D4373;
     border-color: rgba(0, 0, 0, 0.2);
-
 }
+
 .btn-mail img {
     width: 28px;
     height: 31px;
@@ -380,18 +372,30 @@ footer {
 .social a:hover,
 .social a:focus,
 .social img:hover,
-.social img:focus
-{
-    transform: scale(1.5);
-    transform-origin: top center;
-    z-index: 5;
-    transition: 1s;
-}
-.map img:hover,
-.map img:focus{
+.social img:focus {
     transform: scale(1.5);
     transform-origin: top center;
     z-index: 5;
     transition: 1s;
 }
 
+.map img:hover,
+.map img:focus {
+    transform: scale(1.5);
+    transform-origin: top center;
+    z-index: 5;
+    transition: 1s;
+}
+.carousel-indicators{
+    float:inherit;
+}
+.carousel-indicators .active {
+    background: pink;
+     border: 1px solid black;
+}
+ol {
+    margin-bottom: -45px;
+}
+.carousel-indicators .li {
+    border: 1px solid black;
+}
