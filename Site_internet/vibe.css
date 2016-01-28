@@ -205,7 +205,7 @@ footer {
     background-color: grey;
     color: grey;
     
-       background: url("image/headsponso.png");
+    background-image: linear-gradient(white, grey);
    
     margin-right: 12.5px;
 }

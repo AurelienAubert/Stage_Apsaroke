@@ -8,7 +8,7 @@ html{
 body {
     width: 80%;
     /* Pour fixer la largeur de la page */
-    height: 100%;
+    height: auto;
     margin:  auto;
     /* Pour centrer la page */
     background-color: #E6E6FA;
@@ -299,20 +299,19 @@ top: 0px;
 background-image:linear-gradient(white, black);
 }
 
-.carousel-control.left {
-    border-radius : 50px;
-    margin-left: -0px;
-    background-image: linear-gradient(to right, rgba(0, 92, 254, 0.5) 25px, rgba(231, 17, 254, 0) 100%);
-    background-repeat: repeat-x;
+.carousel-control{
+    visibility: hidden;
 }
-
-.carousel-control.right{
-    border-radius : 50px;
-    margin-left: -0px;
-    background-image: linear-gradient(to left, rgba(0, 92, 254, 0.5) 25px, rgba(231, 17, 254, 0) 100%);
-    background-repeat: repeat-x;
+.carousel-indicators{
+    margin-bottom: -25px;
 }
-
+.carousel-indicators li {
+    border: 1px solid rgb(0, 0, 0);
+}
+.carousel-indicators .active 
+{
+    background-color: #0862CC;
+}
 .img-societe
 {
    position: absolute; 
@@ -542,6 +541,10 @@ footer {
     transform-origin: top center;
     z-index: 5;
     transition: 1s;
+}
+.social_responsive
+{
+    visibility: hidden;
 }
 
 

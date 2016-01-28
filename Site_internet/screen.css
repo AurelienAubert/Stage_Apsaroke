@@ -1,13 +1,16 @@
+@media (max-width: 1200px) { 
+    body{
+     width: 90%;
+    height: auto;
+    }
+}
 @media (max-width: 1024px) { 
     body{
      width: 100%;
+    height: auto;
     }
 }
-@media (max-width: 1024px) { 
-    .nav1 img{
-    width: 100%;
-    }
-}
+
 @media (max-width: 640px) { 
     #global div{
         width: 100%;
@@ -15,7 +18,117 @@
     }
 }
 @media (max-width: 1024px) { 
-    .text_head span {
-        color: #F5B714;
+    #header_page{
+     width: 100%;
     }
 }
+@media (max-width: 1200px) { 
+    .col-lg-3{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
+    }
+}
+@media (max-width: 640px) { 
+    .col-lg-3{
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    }
+}
+@media (max-width: 1200px) { 
+    .col-lg-3 .blocDroit {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .col-lg-3 .blocDroit .map{
+        height: 275px;
+    }
+}
+@media (max-width: 1200px) { 
+    .col-lg-3 .blocDroit p, h3{
+        text-align: center;
+    }
+}
+@media (max-width: 1200px) { 
+    .mentions{
+      color: black;
+    }
+}
+@media (max-width: 1200px) { 
+    .col-lg-3 .blocDroit .clavier{
+     display: none;
+    }
+}
+@media (max-width: 1200px) { 
+    .col-lg-3 .blocDroit .social{
+     display: none;
+    }
+}
+@media (max-width: 1200px) { 
+    .col-lg-3 .blocDroit .social a{
+     visibility: hidden;
+    }
+}
+@media (max-width: 1200px) { 
+    .col-lg-3 .blocDroit .social_responsive{
+     visibility: visible;
+    display: inline;
+    margin-bottom: 200px;
+    position: relative;
+   
+    }
+}
+@media (max-width: 1200px) { 
+    .col-lg-3 .blocDroit .social_responsive .linkedin{
+     color: #FFF;
+    background-color: #007BB6;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    padding-bottom: 12px;
+    padding-top: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+   
+    }
+}
+@media (max-width: 1200px) { 
+.col-lg-3 .blocDroit .social_responsive .linkedin:hover {
+    color: #FFF;
+    border-color: rgba(0, 0, 0, 0.2);
+    background-color: #005983;
+}
+}
+@media (max-width: 1200px) { 
+    .col-lg-3 .blocDroit .social_responsive .facebook{
+     color: #FFF;
+    background-color: #007BB6;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    padding-bottom: 12px;
+    padding-top: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+   
+    }
+}
+@media (max-width: 1200px) { 
+.col-lg-3 .blocDroit .social_responsive .facebook:hover {
+color: #FFF;
+    background-color: #2D4373;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+}
+@media (max-width: 1200px) { 
+.col-lg-3 .blocDroit .social_responsive img {
+  width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+}
+
