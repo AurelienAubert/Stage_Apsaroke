@@ -172,6 +172,7 @@ footer {
 
 .container-text-cadre {
     padding-top: 30px;
+    padding-bottom: 20px;
     color: #848484;
     background-color: #E6E6FA;
     height: 488px;
@@ -288,31 +289,7 @@ top: 0px;
     height: 385px;
     background-color: white;
     color: black;
-}
-
-.carousel-control
-{
-    margin-top: 390px; 
-    margin-left: -30px;
-    width: 50px;
-    height: 55px;
-background-image:linear-gradient(white, black);
-}
-
-.carousel-control.left {
-    border-radius : 50px;
-    margin-left: -0px;
-    background-image: linear-gradient(to right, rgba(0, 92, 254, 0.5) 25px, rgba(231, 17, 254, 0) 100%);
-    background-repeat: repeat-x;
-}
-
-.carousel-control.right{
-    border-radius : 50px;
-    margin-left: -0px;
-    background-image: linear-gradient(to left, rgba(0, 92, 254, 0.5) 25px, rgba(231, 17, 254, 0) 100%);
-    background-repeat: repeat-x;
-}
-
+}s
 .img-societe
 {
    position: absolute; 
@@ -343,7 +320,6 @@ background-image:linear-gradient(white, black);
 }
 
 .blocDroit
-/* menu */
 
 {
     margin-top: 20px;
@@ -355,9 +331,6 @@ background-image:linear-gradient(white, black);
     margin: 0px;
     
 }
-
-
-
 section {
     margin-top: 20px;
     margin-left: auto;

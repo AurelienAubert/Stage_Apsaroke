@@ -131,4 +131,10 @@ color: #FFF;
     margin-bottom: 5px;
 }
 }
+@media (max-width: 1200px) { 
+.col-lg-3 .blocDroit .indien{
+    margin-left: 150px;
+    width: 275px;
+}
+}
 
