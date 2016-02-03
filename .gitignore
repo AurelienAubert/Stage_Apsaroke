@@ -1,3 +1,10 @@
-/vendor
 /Site_internet/nbproject/private/
-/Site_internet/apsaroke/nbproject/private/
+/AncienSite
+/_
+/cgi-bin
+/log
+/ssl
+/user
+/accueil.html
+/intranet.php
+/sponsoring.php

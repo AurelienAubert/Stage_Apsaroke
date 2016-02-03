@@ -1,0 +1,21 @@
+.not_printed {
+    display: none;
+}
+
+.logo {
+    height:100px;
+    width:auto;
+}
+.printed {
+    display: block;
+	background-color: #fff;
+	border: 0px;
+}
+
+#page {
+	margin: 10%;
+}
+
+.header {
+    position: static;
+}

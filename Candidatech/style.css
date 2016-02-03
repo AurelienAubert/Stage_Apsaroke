@@ -1,0 +1,165 @@
+#formulaire {
+    background-color:#CCC;
+}
+
+#form2 {
+    background-color:#CCC;
+}
+
+.jw{
+    background-color:yellow;
+}
+
+.abs{
+    background-color:sandybrown;
+}
+
+.cp{
+    background-color:royalblue;
+}
+
+.rtt{
+    background-color:mediumseagreen;
+}
+
+.mal{
+    background-color:brown;
+}
+.ss{
+    background-color:red;
+}
+.we{
+    background-color:grey;
+}
+.externe{
+    background-color:black;
+    color: white;
+    font-weight: bold;
+}
+
+.interne{
+    background-color: skyblue;
+    font-weight: bold;   
+}
+
+.feries, .samedi, .dimanche{
+    background-color:grey !important;   
+}
+
+.accueil {
+    text-align: center;
+}
+
+.ram{
+    color:mediumblue;
+    text-align: center;
+}
+
+.conges{
+    color: #04e780;
+    text-align: center;
+}
+
+.legend_conges{
+    color: #04e780;
+}
+
+.legend_ram{
+    color:mediumblue;  
+}
+
+.legend_paie{
+    color:red;  
+}
+
+.paie{
+    color:red;  
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #e5e5e5;
+}
+
+td {
+    text-align: center;
+}
+
+.header {
+    position:fixed;
+    z-index:1;
+    background-color:white;
+    top:0px;
+    width:100%;
+}
+
+.navbar {
+    margin:0px;
+}
+.legend
+{
+
+    max-width:245px;
+    padding:20px;	
+    position:fixed;
+}
+.legend1
+{
+    text-decoration: underline;
+    position:fixed;
+}
+.bleu
+{
+    color:#101AA2; 
+}
+.rouge
+{
+    color:#B2293B;
+}
+.vert
+{
+    color:#55B75F;
+}
+.projet
+{
+    position: absolute;
+    z-index: 4;
+    margin-top: -70px;
+}
+th #tablehead
+{
+    width: 100px;
+}
+.textarea800
+{
+    width:800px;
+}
+.input500
+{
+    width:500px;
+}
+.entetecolonne
+{
+    background-color: #e9f8ff;
+}
+.select_div {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+/*    background: #fff url(petite_fleche.png) no-repeat center right;*/
+}    
+.over
+{
+    overflow: auto;
+    height: 100px;
+}
+
+.escape{
+    height: 260px;
+    width: 100%;
+}
+
+.tableConge
+{
+    width: 10%;
+}
