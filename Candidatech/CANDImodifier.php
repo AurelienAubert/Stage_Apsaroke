@@ -15,38 +15,38 @@ $candidat = $prep -> fetchObject();
 
 // Ecriture de la requete SQL dans la variable $requete 
 $requetetech = "SELECT TCH_codeTechnologie, TCH_libelleTechnologie FROM candi_technologie ORDER BY TCH_codeTechnologie";
-// Préparation de la requete SQL
+// PrÃ©paration de la requete SQL
 $prep = $bdd->prepare($requetetech);
-// Exécution de la requete 
+// ExÃ©cution de la requete 
 $prep->execute();
-// Récuperation du tableau resultat requete (contenant toutes les lignes)
+// RÃ©cuperation du tableau resultat requete (contenant toutes les lignes)
 $rstechnologie = $prep->fetchAll();
 
 // Ecriture de la requete SQL dans la variable $requetedetail
 $requeteEtat = "SELECT ET_CDT_codeEtat, ET_CDT_libelleEtat FROM CANDI_ETAT_CANDIDATURE ORDER BY ET_CDT_codeEtat";
-// Préparation de la requete SQL
+// PrÃ©paration de la requete SQL
 $prep = $bdd->prepare($requeteEtat);
-// Exécution de la requete 
+// ExÃ©cution de la requete 
 $prep->execute();
-// Récuperation du tableau resultat requete (contenant toutes les lignes)
+// RÃ©cuperation du tableau resultat requete (contenant toutes les lignes)
 $rsetat = $prep->fetchAll();
 
 // Ecriture de la requete SQL dans la variable $requetestatut
 $requeteStatut = "SELECT STA_codeStatut, STA_libelleStatut FROM sta_statut ORDER BY sta_codestatut";
-// Préparation de la requete SQL
+// PrÃ©paration de la requete SQL
 $prep = $bdd->prepare($requeteStatut);
-// Exécution de la requete 
+// ExÃ©cution de la requete 
 $prep->execute();
-// Récuperation du tableau resultat requete (contenant toutes les lignes)
+// RÃ©cuperation du tableau resultat requete (contenant toutes les lignes)
 $rsstatut = $prep->fetchAll();
 
 // Ecriture de la requete SQL dans la variable $requetedetail
 $requeteSuivit = "SELECT SVT_codeSuivit, SVT_libelleSuivit FROM CANDI_SUIVIT ORDER BY SVT_codeSuivit";
-// Préparation de la requete SQL
+// PrÃ©paration de la requete SQL
 $prep = $bdd->prepare($requeteSuivit);
-// Exécution de la requete 
+// ExÃ©cution de la requete 
 $prep->execute();
-// Récuperation du tableau resultat requete (contenant toutes les lignes)
+// RÃ©cuperation du tableau resultat requete (contenant toutes les lignes)
 $rssuivit = $prep->fetchAll();
 
 // Fermeture de la connexion
@@ -238,11 +238,11 @@ $bdd = null;
                 <br><br>
                 <table>
                     <td><p for="champCV" >Piece Jointe :</p></td>
-                    <td><input type="file" title="Choisir un fichier a�importer" name="cv" multiple="1" aria-label="Telecharger un CV" id="champCV" value="<?php echo $candidat->CDT_PIECEJOINTE ?>" ></td>
+                    <td><input type="file" title="Choisir un fichier a importer" name="cv" multiple="1" aria-label="Telecharger un CV" id="champCV" value="<?php echo $candidat->CDT_PIECEJOINTE ?>" ></td>
                 </table>
                 <br>
                 
-                    <p for="champMnemonic" title="Correspond a� la premiere lettre du Prenom<br>+premiere lettre du Nom<br>
+                    <p for="champMnemonic" title="Correspond a  la premiere lettre du Prenom<br>+premiere lettre du Nom<br>
                        +derniere lettre du Nom">MneMonic :</p>
                     <input type="text" name="mnemonic" id="champMnemonic" value="<?php echo $candidat->CDT_MNEMONIC ?>"/>
                     

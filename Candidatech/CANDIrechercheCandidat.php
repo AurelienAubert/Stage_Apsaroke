@@ -2,7 +2,7 @@
 // Conexion a la BD
 require_once 'CANDIbdd.inc';
 
-// Récupération de la saisie formulaire
+// RÃ©cupÃ©ration de la saisie formulaire
 $codeDetail = $_POST['detail'];
 $lieu = $_POST['lieu'];
 
