@@ -2,7 +2,7 @@
 // Conexion a la BD
 require_once 'CANDIbdd.inc';
 
-// RÃ©cupÃ©ration de la saisie formulaire
+// Récupération de la saisie formulaire
 $codeDetail = $_POST['detail'];
 $lieu = $_POST['lieu'];
 
@@ -11,10 +11,10 @@ $bdd = getBdd();
 
 
 //SI LIEU + RECHERCHE OK 
-if(isset($lieu) && $_POST['independant'] == NULL){
+if(isset($lieu)){
     //preparation de la requete
 $requete = "SELECT * FROM candi_candidat c join candi_technologie t on c.tch_codetechnologie=t.tch_codetechnologie join candi_etat_candidature e on c.et_cdt_codeetat=e.et_cdt_codeetat "
-         . "where det_detail like '%$codeDetail%' AND CDT_VILLECANDIDAT= '$lieu' ORDER BY det_detail" ;
+         . "where det_detail like '%$codeDetail%' AND CDT_VILLECANDIDAT= '$lieu' AND c.et_cdt_codeetat!=6 ORDER BY det_detail" ;
 
 }
 

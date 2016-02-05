@@ -57,6 +57,7 @@ $OK = true;
                     </fieldset>
                     </div>
                 </div>
+                 <a href="CANDIindex.php"><button>Retour Index</button></a>
             </div>
         </div>
         
