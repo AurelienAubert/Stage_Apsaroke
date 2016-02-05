@@ -12,7 +12,7 @@ $prep->execute();
 // Recuperation du tableau resultat requete (contenant toutes les lignes)
 $candidat = $prep -> fetchObject();
 
-$num = $_GET['num_candidat'];
+$numcandidat = $_GET['num_candidat'];
 
 ?>
 
@@ -34,7 +34,7 @@ $num = $_GET['num_candidat'];
                         <legend>Suppression Candidat</legend>
 
             <br><br>
-            <?php echo "Etes-vous sur de vouloir supprimer ".$candidat->CDT_NOMCANDIDAT." ".$candidat->CDT_PRENOMCANDIDAT. "?" ?> <span class="blue"><a href="CANDIsupprimer_post.php?num_candidat=<?php echo $num ?>" >Oui !</a></span>
+            <?php echo "Etes-vous sur de vouloir supprimer ".$candidat->CDT_NOMCANDIDAT." ".$candidat->CDT_PRENOMCANDIDAT. "?" ?> <span class="blue"><a href='CANDIsupprimer_post.php?num_candidat=$numcandidat' >Oui !</a></span>
        
             
             <br><br>

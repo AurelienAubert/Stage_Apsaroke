@@ -1,19 +1,19 @@
 <?php
-$numcandidat=$_GET['num_candidat'];
+$numcandidat=$_GET['numcandidat'];
 // Conexion a la BD
 require_once 'CANDIbdd.inc';
 $bdd = getBdd();
 $requete ="SELET * FROM 'candi_candidat' WHERE cdt_numcandidat='$numcandidat'";
 $prep = $bdd->prepare($requete);
 // Exécution de la requete 
-$prep->execute($numcandidat);
+$prep->execute(array($numcandidat));
 $ligne = $prep -> fetchObject();
 
 $requete = "DELETE * FROM `candi_candidat` WHERE cdt_numcandidat='$numcandidat'";
 // Pre paration de la requete SQL
 $prep = $bdd->prepare($requete);
 // Exécution de la requete 
-$prep->execute($numcandida);
+$prep->execute(array($numcandidat));
 
 
 ?>
@@ -39,7 +39,7 @@ $prep->execute($numcandida);
 <?php
 $nom = $ligne['CDT_NOMCANDIDAT'];
 $prenom = $ligne['CDT_PRENOMCANDIDAT'];
-echo "Vous vennez de supprimer $nom $prenom de la base de donn�e"
+echo "Vous vennez de supprimer le candidat numero $numcandidat de la base de donnee"
 ?>
 
 
